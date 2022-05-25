@@ -1,0 +1,8 @@
+{
+	"name": "FleaMarketPriceUpdater",
+	"author": "Lua",
+	"version": "1.8.0",
+	"akiVersion": "2.3.*",
+	"license": "CC BY-NC-SA 4.0",
+	"main": "modloader.js"
+}

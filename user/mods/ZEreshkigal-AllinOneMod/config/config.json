@@ -1,0 +1,155 @@
+{
+  "Explanation": {
+    "############## PLEASE READ THE README.PDF OF THE MOD BEFORE EDITING BELOW VALUES. ######################": "///"
+  },
+  "items": {
+    "AllExaminedItems": false,
+    "WeightOptions": false,
+    "WeightChanger": 0,
+    "MoreStack": false,
+    "EquipRigsWithArmors": false,
+    "ForceMoneyStack": false,
+    "RemoveSecureContainerFilters": true,
+    "RemoveBackpacksRestrictions": true,
+    "RemoveContainersRestrictions": true,
+    "InRaidModdable": false,
+    "IncreaseLootExp": false,
+    "IncreaseExamineExp": false,
+    "RemoveKeysUsageNumber": true,
+    "StackableBarters": {
+      "activated": false,
+      "Battery": 1,
+      "Building materials": 1,
+      "Electronics": 1,
+      "Household goods": 1,
+      "Jewelry": 1,
+      "Medical supplies": 1,
+      "Flammable": 1,
+      "Tools": 1,
+      "Other": 1
+    },
+    "Weapons malfunctions": {
+      "Overheat": true,
+      "Jam": true,
+      "Slide": true,
+      "Misfire": true,
+      "Feed": true
+    },
+    "Weapons durabilities": {
+      "Minimum spawn durability": 25,
+      "Maximum spawn durability": 75
+    },
+    "RemoveAllGearPenalties": false,
+    "RemoveItemsDurabilityBurn": false,
+    "RemoveBulletsWeaponDurabilityDamage": false,
+    "RemoveWeaponsPresetRestriction": false,
+    "ChangeIndividualItemProperty": {
+      "activated": false,
+      "ItemList": {
+        "__REPLACEMEBYITEMID__": {
+          "SpawnChance": 0
+        }
+      }
+    }
+  },
+  "hideout": {
+    "ChangeFuelConsumptionRate": false,
+    "FastHideoutConstruction": false,
+    "FastHideoutProduction": false,
+    "FastScavCase": false,
+    "ScavCasePriceReducer": false,
+    "RemoveConstructionsRequirements": false
+  },
+  "player": {
+    "RemoveScavTimer": false,
+    "ChangeSkillProgressionMultiplier": 5,
+    "ChangeWeaponSkillMultiplier": 5,
+    "DisableSkillFatigue": false,
+    "SkillMinEffectiveness": 0.2,
+    "SkillFatiguePerPoint": 0.2,
+    "SkillFreshEffectiveness": 1.3,
+    "SkillFreshPoints": 1,
+    "SkillPointsBeforeFatigue": 1,
+    "SkillFatigueReset": 300,
+    "ChangeMaxStamina": false,
+    "UnlimitedStamina": false,
+    "RemoveInRaidsRestrictions": true,
+    "DisableFallDamage": false,
+    "AllSkillsMaster": false,
+    "EnableSkillBotReload": false,
+    "EnableSkillBotSound": false,
+    "RemoveScavKarma": false,
+    "EnergyDrainRate": false,
+    "EnergyDrainTime": false,
+    "HydratationDrainRate": false,
+    "HydratationDrainTime": false,
+    "RegenerationLoopTime": false,
+    "EnergyRestoration": 0,
+    "HydrationRestoration": 0
+  },
+  "traders": {
+    "AllQuestsAvailable": false,
+    "AllClothesFree": true,
+    "AllClotheForEverySide": true,
+    "ChangeFleaMarketLvl": false,
+    "InsuranceTime": {
+      "activated": false,
+      "Therapist": {
+        "activated": false,
+        "min": 0,
+        "max": 0
+      },
+      "Prapor": {
+        "activated": false,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "TradersChanges": {
+      "AllTraders4Stars": false,
+      "UnlockAllItemsAtLL1": false,
+      "RemoveItemsFromQuestLocks": false
+    },
+    "MaxInsuranceStorageTime": false,
+    "PreventFenceMastering": true,
+    "Remove FIR condition on quests": true
+  },
+  "raids": {
+    "NoExtractsRestrictions": false,
+    "AllExtractionsAvailable": true,
+    "IncreasedBossChance": false,
+    "ExtendedRaid": false,
+    "RemoveLabKeycard": false,
+    "ExtractionsExtended": true,
+    "InsuranceOnAllMaps": false
+  },
+  "Fixes": {
+    "Fins-Choke-Me-Harder": false,
+    "Chomps-RaiderSpawnFix": false,
+    "JustNU's-EvenMoreOpenZones": false
+  },
+  "other": {
+    "CompatibilityMods": {
+      "TerragroupSpecialist": false,
+      "CoD MW - Mil-Sim: CTSFO I": false,
+      "Additionnal Gear - Tan": false,
+      "Additionnal Gear - Black": false,
+      "Additionnal Gear - Untar": false,
+      "Additionnal Clothing": false,
+      "Andrudis Quest Maniac": false
+    },
+    "Pre-Wipe events": {
+      "Raiders on all maps": false,
+      "Killa on factory": false,
+      "All bosses on reserve": false,
+      "All traders sells cheap items": false,
+      "Make Obdolbos Powerfull": false,
+      "Gluhkar on labs": false
+    },
+    "InGame events": {
+      "HeatWave": false
+    },
+    "HideWarningMessage": true,
+    "ShowModLogs": false
+  }
+}

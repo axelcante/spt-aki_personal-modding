@@ -1,0 +1,121 @@
+{
+    "items": {
+        "DEFAULT": "{OPTION NAME} option is incorrect, {option to enable} or {option to disable}, check the readme.pdf for more info.",
+        "AllExaminedItems": "AllExaminedItems option is incorrect, it must be true to true to activate or false to disable, check the readme.pdf for more info.",
+        "WeightOptions": "WeightOptions option is incorrect, it must be \"Forced\",\"Perc\",\"Mult\" to activate or false to disable. check the readme.pdf for more info.",
+        "WeightChanger": "WeightChanger option is incorrect, it must be a number to be correct and will only work if WeightOption is active. check the readme.pdf for more info.",
+        "MoreStack": "MoreStack option is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+        "EquipRigsWithArmors": "EquipRigsWithArmors option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "ForceMoneyStack": "ForceMoneyStack option is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+        "RemoveSecureContainerFilters": "RemoveSecureContainerFilters option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "RemoveBackpacksRestrictions": "RemoveBackpacksRestrictions option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "RemoveContainersRestrictions": "RemoveContainersRestrictions option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "InRaidModdable": "InRaidModdable option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "IncreaseLootExp": "IncreaseLootExp option is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+        "IncreaseExamineExp": "IncreaseExamineExp option is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+        "RemoveKeysUsageNumber": "RemoveKeysUsageNumber option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "StackableBarters": "StackableBarters option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "RemoveAllGearPenalties": "RemoveAllGearPenalties option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "RemoveItemsDurabilityBurn": "RemoveItemsDurabilityBurn option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "RemoveBulletsWeaponDurabilityDamage": "RemoveBulletsWeaponDurabilityDamage option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "RemoveWeaponsPresetRestriction": "RemoveWeaponsPresetRestriction option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "ChangeIndividualItemProperty": {
+            "activated": "ChangeIndividualItemProperty[activated] option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info."
+        },
+        "Weapons malfunctions": {
+            "Overheat": "Malfunction: Overheat option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info",
+            "Jam": "Malfunction: Jam option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info",
+            "Slide": "Malfunction: Slide option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info",
+            "Misfire": "Malfunction: Misfire option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info",
+            "Feed": "Malfunction: Feed option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info"
+          },
+          "Weapons durabilities": {
+            "Minimum spawn durability": "Weapon durabilities: Minimum spawn durability value is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+            "Maximum spawn durability": "Weapon durabilities: Maximum spawn durability value is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info."
+          }
+    },
+    "hideout": {
+        "ChangeFuelConsumptionRate": "ChangeFuelConsumptionRate option is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+        "FastHideoutConstruction": "FastHideoutConstruction option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "FastHideoutProduction": "FastHideoutProduction option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "FastScavCase": "FastScavCase option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "ScavCasePriceReducer": "ScavCasePriceReducer option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "RemoveConstructionsRequirements": "RemoveConstructionsRequirements option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info."
+    },
+    "player": {
+        "RemoveScavTimer": "RemoveScavTimer option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "ChangeSkillProgressionMultiplier": "ChangeSkillProgressionMultiplier option is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+        "ChangeWeaponSkillMultiplier": "ChangeWeaponSkillMultiplier option is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+        "DisableSkillFatigue": "DisableSkillFatigue option is incorrect, it must be either true or \"Custom\" to activate or false to disable. check the readme.pdf for more info.",
+        "SkillMinEffectiveness": "SkillMinEffectiveness option is incorrect, it must be a number to activate. check the readme.pdf for more info.",
+        "SkillFatiguePerPoint": "SkillFatiguePerPoint option is incorrect, it must be a number to activate. check the readme.pdf for more info.",
+        "SkillFreshEffectiveness": "SkillFreshEffectiveness option is incorrect, it must be a number to activate. check the readme.pdf for more info.",
+        "SkillFreshPoints": "SkillFreshPoints option is incorrect, it must be a number to activate. check the readme.pdf for more info.",
+        "SkillPointsBeforeFatigue": "SkillPointsBeforeFatigue option is incorrect, it must be a number to activate. check the readme.pdf for more info.",
+        "SkillFatigueReset": "SkillFatigueReset option is incorrect, it must be a number to activate. check the readme.pdf for more info.",
+        "ChangeMaxStamina": "ChangeMaxStamina option is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+        "UnlimitedStamina": "UnlimitedStamina option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "RemoveInRaidsRestrictions": "RemoveInRaidsRestrictions option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "AllSkillsMaster": "AllSkillsMaster option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "EnableSkillBotReload": "EnableSkillBotReload option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "EnableSkillBotSound": "EnableSkillBotSound option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "DisableFallDamage": "DisableFallDamage option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "EnergyDrainRate": "EnergyDrainRate option is incorrect, it must be a boolean in order to work (false or number). check the readme.pdf for more info.",
+        "EnergyDrainTime": "EnergyDrainTime option is incorrect, it must be a boolean in order to work (false or number). check the readme.pdf for more info.",
+        "HydratationDrainRate": "HydratationDrainRate option is incorrect, it must be a boolean in order to work (false or number). check the readme.pdf for more info.",
+        "HydratationDrainTime": "HydratationDrainTime option is incorrect, it must be a boolean in order to work (false or number). check the readme.pdf for more info.",
+        "RegenerationLoopTime": "RegenerationLoopTime option is incorrect, it must be a number to activate or false to disable, check the readme.pdf for more info.",
+        "EnergyRestoration": "EnergyRestoration option is incorrect, it must be a number to activate or false to disable, check the readme.pdf for more info.",
+        "HydrationRestoration": "HydrationRestoration option is incorrect, it must be a number to activate or false to disable, check the readme.pdf for more info."
+    },
+    "traders": {
+        "AllQuestsAvailable": "AllQuestsAvailable option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "AllClothesFree": "AllClothesFree option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "AllClotheForEverySide": "AllClotheForEverySide option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "ChangeFleaMarketLvl": "ChangeFleaMarketLvl option is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+        "InsuranceTime": {
+            "activated": "InsuranceTime[activated] option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+            "Therapist": {
+                "activated": "InsuranceTime[Therapist][activated] option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+                "min": 0,
+                "max": 0
+            },
+            "Prapor": {
+                "activated": "InsuranceTime[Prapor][activated] option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+                "min": 0,
+                "max": 0
+            }
+        },
+        "TradersChanges": {
+            "AllTraders4Stars": "AllTraders4Stars option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+            "UnlockAllItemsAtLL1": "UnlockAllItemsAtLL1 option is incorrect, it must be true to activate or false to disable. Check the readme.pdf for more infos",
+            "RemoveItemsFroMQuestLocks": "RemoveItemsFroMQuestLocks option is incorrect, it must be true to activate or false to disable. Check the readme.pdf for more infos"
+          },
+        "MaxInsuranceStorageTime": "WeightChanger option is incorrect, it must be a number to activate or false to disable. check the readme.pdf for more info.",
+        "Remove FIR condition on quests": "Remove FIR condition on quests option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info."
+    },
+    "raids": {
+        "NoExtractsRestrictions": "NoExtractsRestrictions option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "AllExtractionsAvailable": "AllExtractionsAvailable option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "IncreasedBossChance": "IncreasedBossChance option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "ExtendedRaid": "ExtendedRaid option is incorrect, it must be false or a number in order to work. check the readme.pdf for more info.",
+        "RemoveLabKeycard": "RemoveLabKeycard option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "ExtractionsExtended": "ExtractionsExtended option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+        "InsuranceOnAllMaps": "InsuranceOnAllMaps option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info."
+    },
+    "other": {
+        "Pre-Wipe events":{
+            "Raiders on all maps": "Raiders on all maps option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+            "Killa on factory":"Killa on factory option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+            "All bosses on reserve": "All bosses on reserve option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+            "All traders sells cheap items": "All bosses on reserve option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+            "Make Obdolbos Powerfull": "Make Obdolbos Powerfull option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info.",
+            "Gluhkar on labs": "Gluhkar on labs option is incorrect, it must be true to activate or false to disable. check the readme.pdf for more info."
+        }
+    },
+    "Fixes": {
+        "FinsChokeMeHarder": "Fins-ChokeMeHarder option is incorrect, it must be true to activate or false to disable, check the readme.pdf for more info.",
+        "ChompsRaiderSpawnFix": "Chomps-RaiderSpawnFix option is incorrect, it must be true to activate or false to disable, check the readme.pdf for more info.",
+        "JustNUsEvenMoreOpenzones": "JustNUs-EvenMoreOpenzones option is incorrect, it must be true to activate or false to disable, check the readme.pdf for more info."
+    }
+}

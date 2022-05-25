@@ -1,0 +1,28 @@
+{        
+        "This changes the amount of loot spawned. Defalut AKI is 1. 1.25 gives you 25% more loot, 1.5 is 50%, 1.75 is 75%, and 2 is 100%. From personal testing 1.25-1.5 is the best range for loose loot.": "",
+        "LooseLootMultiplier": {
+        "bigmap": 1.45,
+        "factory4_day": 1.45,
+        "factory4_night": 1.45,
+        "interchange": 1.55,
+        "laboratory": 1.75,
+        "rezervbase": 1.55,
+        "shoreline": 1.55,
+        "woods": 1.45,
+        "lighthouse": 1.45
+        },
+
+        "This changes the amount of loot spawned in boxes. Values are affected the same as the LooseLootMultiplier": "",
+        "StaticLootMultiplier": {
+        "bigmap": 1.3,
+        "factory4_day": 1.3,
+        "factory4_night": 1.3,
+        "interchange": 1.3,
+        "laboratory": 1.3,
+        "rezervbase": 1.3,
+        "shoreline": 1.3,
+        "woods": 1.3,
+        "lighthouse": 1.3
+        }
+    		
+}

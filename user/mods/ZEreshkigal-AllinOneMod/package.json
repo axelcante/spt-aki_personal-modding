@@ -1,0 +1,12 @@
+{
+    "name": "AllinOneMod",
+    "author": "Ereshkigal",
+    "version": "2.7.3",
+    "akiVersion": "2.3.1",
+    "license": "CC-BY-NC-ND 4.0",
+    "dependencies": {
+        "CoreMod": "2.2.2"
+    },
+    "main": "package.js",
+    "updated by": "CWX, Valens"
+}

@@ -1,0 +1,13 @@
+{
+    "default_pattern": "Lua-Default",
+
+	"use_random_patterns": false,
+	"random_patterns": {
+		"Lua-Default": 1,
+		"YOUR-PATTERN-FILE-NAME-IN-HERE-1": 1,
+		"YOUR-PATTERN-FILE-NAME-IN-HERE-2": 1,
+		"YOUR-PATTERN-FILE-NAME-IN-HERE-3": 1
+	},
+
+	"__DEBUG__Generate_bots_on_start": false
+}
