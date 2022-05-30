@@ -37,7 +37,7 @@
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
-			"bosses_also_use_raiders_spawn_locations":true,
+			"bosses_also_use_raiders_spawn_locations":false,
 			"cultists_spawn_count_for_max_boss": false,
 			"cultists_spawn_at_own_locations": true,
 			"boss_settings":[
@@ -47,8 +47,8 @@
 					"difficulty":"normal, hard",
 					"escort_type":"followerBully",
 					"escort_difficulty":"normal, hard",
-					"escort_amount_min":3,
-					"escort_amount_max":6,
+					"escort_amount_min":2,
+					"escort_amount_max":4,
 					"wave_total":1,
 					"wave_spawn_time_for_each_min":600,
 					"wave_spawn_time_for_each_max":900,
@@ -226,7 +226,7 @@
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
-			"bosses_also_use_raiders_spawn_locations":true,
+			"bosses_also_use_raiders_spawn_locations":false,
 			"cultists_spawn_count_for_max_boss": false,
 			"cultists_spawn_at_own_locations": true,
 			"boss_settings":[
@@ -435,7 +435,7 @@
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
-			"bosses_also_use_raiders_spawn_locations":true,
+			"bosses_also_use_raiders_spawn_locations":false,
 			"cultists_spawn_count_for_max_boss": false,
 			"cultists_spawn_at_own_locations": true,
 			"boss_settings":[
@@ -595,7 +595,7 @@
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
-			"bosses_also_use_raiders_spawn_locations":true,
+			"bosses_also_use_raiders_spawn_locations":false,
 			"cultists_spawn_count_for_max_boss": false,
 			"cultists_spawn_at_own_locations": true,
 			"boss_settings":[
@@ -1016,7 +1016,7 @@
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
-			"bosses_also_use_raiders_spawn_locations":true,
+			"bosses_also_use_raiders_spawn_locations":false,
 			"cultists_spawn_count_for_max_boss": true,
 			"cultists_spawn_at_own_locations": false,
 			"boss_settings":[
@@ -1469,7 +1469,7 @@
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
-			"bosses_also_use_raiders_spawn_locations":true,
+			"bosses_also_use_raiders_spawn_locations":false,
 			"cultists_spawn_count_for_max_boss": false,
 			"cultists_spawn_at_own_locations": true,
 			"boss_settings":[
@@ -1478,7 +1478,7 @@
 					"chance":100,
 					"difficulty":"normal",
 					"escort_type":"followerKojaniy",
-					"escort_difficulty":"normal",
+					"escort_difficulty":"easy",
 					"escort_amount_min":2,
 					"escort_amount_max":2,
 					"wave_total":1,

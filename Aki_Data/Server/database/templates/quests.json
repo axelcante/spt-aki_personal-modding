@@ -558,7 +558,7 @@
             "target": [
               "5696686a4bdc2da3298b456a"
             ],
-            "value": "6000",
+            "value": "200",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -5092,25 +5092,6 @@
           "dynamicLocale": false
         },
         {
-          "_parent": "FindItem",
-          "_props": {
-            "dogtagLevel": 0,
-            "id": "5cb6f32986f7746ef55e17a0",
-            "index": 1,
-            "maxDurability": 100,
-            "minDurability": 0,
-            "parentId": "",
-            "onlyFoundInRaid": true,
-            "dynamicLocale": false,
-            "target": [
-              "590a3efd86f77437d351a25b"
-            ],
-            "value": "1",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
           "_parent": "HandoverItem",
           "_props": {
             "dogtagLevel": 0,
@@ -5119,7 +5100,7 @@
             "maxDurability": 100,
             "minDurability": 0,
             "parentId": "",
-            "onlyFoundInRaid": true,
+            "onlyFoundInRaid": false,
             "dynamicLocale": false,
             "target": [
               "590a3efd86f77437d351a25b"
@@ -7658,25 +7639,6 @@
     "conditions": {
       "AvailableForFinish": [
         {
-          "_parent": "FindItem",
-          "_props": {
-            "dogtagLevel": 0,
-            "id": "5ec1398886f7561e047757a5",
-            "index": 0,
-            "maxDurability": 100,
-            "minDurability": 0,
-            "parentId": "",
-            "onlyFoundInRaid": true,
-            "dynamicLocale": false,
-            "target": [
-              "590a3efd86f77437d351a25b"
-            ],
-            "value": "2",
-            "visibilityConditions": []
-          },
-          "dynamicLocale": false
-        },
-        {
           "_parent": "HandoverItem",
           "_props": {
             "dogtagLevel": 0,
@@ -7685,7 +7647,7 @@
             "maxDurability": 100,
             "minDurability": 0,
             "parentId": "",
-            "onlyFoundInRaid": true,
+            "onlyFoundInRaid": false,
             "dynamicLocale": false,
             "target": [
               "590a3efd86f77437d351a25b"
@@ -8048,7 +8010,7 @@
             "index": 1,
             "parentId": "",
             "dynamicLocale": false,
-            "target": "596a204686f774576d4c95de",
+            "target": "5968eb3186f7741dde183a4d",
             "status": [
               4
             ]
@@ -8438,6 +8400,22 @@
             {
               "_id": "622a41dedd8fd175943c00fb",
               "_tpl": "5913611c86f77479e0084092",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "59c4dbae86f77473ed2cc3a8",
+          "type": "Item",
+          "index": 0,
+          "target": "622a41dedd8fd175943c00fz",
+          "items": [
+            {
+              "_id": "622a41dedd8fd175943c00fz",
+              "_tpl": "593aa4be86f77457f56379f8",
               "upd": {
                 "StackObjectsCount": 1
               }
@@ -25876,7 +25854,7 @@
             "index": 0,
             "parentId": "",
             "dynamicLocale": false,
-            "value": 15,
+            "value": 7,
             "compareMethod": ">=",
             "visibilityConditions": []
           },
