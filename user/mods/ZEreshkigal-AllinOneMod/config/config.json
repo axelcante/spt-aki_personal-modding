@@ -84,7 +84,7 @@
     "HydratationDrainRate": false,
     "HydratationDrainTime": false,
     "RegenerationLoopTime": false,
-    "EnergyRestoration": 0,
+    "EnergyRestoration": 0.2,
     "HydrationRestoration": 0
   },
   "traders": {

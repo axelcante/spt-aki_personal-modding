@@ -4,7 +4,7 @@
 	"script_file": "Lua-Default.js",
 
 	"spawns":{
-		"max_alive_bots": 40,
+		"max_alive_bots": 30,
 		"pmc_usec_chance": 50,
 		"pmc_behavior_role": "pmcBot",
 		"usec_default_enemy": {
@@ -43,19 +43,37 @@
 			"boss_settings":[
 				{
 					"name":"bossBully",
-					"chance":50,
+					"chance":65,
 					"difficulty":"normal, hard",
 					"escort_type":"followerBully",
 					"escort_difficulty":"normal, hard",
 					"escort_amount_min":2,
 					"escort_amount_max":4,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
-						"ZoneScavBase":1,
 						"ZoneGasStation":1,
+						"ZoneDormitory":1
+					},
+					"trigger_id":"",
+					"trigger_name":"",
+					"supports":null
+				},
+				{
+					"name":"bossKilla",
+					"chance":35,
+					"difficulty":"normal, hard",
+					"escort_type":"followerBully",
+					"escort_difficulty":"normal, hard",
+					"escort_amount_min":2,
+					"escort_amount_max":2,
+					"wave_total":1,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
+					"wave_spawn_all_same_location":false,
+					"spawn_locations":{
 						"ZoneDormitory":1
 					},
 					"trigger_id":"",
@@ -71,8 +89,8 @@
 					"escort_amount_min":1,
 					"escort_amount_max":3,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneScavBase":1
@@ -88,8 +106,8 @@
 					"escort_type":null,
 					"escort_difficulty":null,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneScavBase":1,
@@ -103,10 +121,10 @@
 			],
 			"wave_settings":{
 				"scav_waves":{
-					"wave_total":12,
+					"wave_total":7,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":2,
+					"insta_spawn_waves":7,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 60,
 					"spawn_time_delay_for_each_max": 180,
@@ -133,10 +151,10 @@
 					}
 				},
 				"sniper_waves":{
-					"wave_total":3,
+					"wave_total":2,
 					"slot_min":1,
 					"slot_max":1,
-					"insta_spawn_waves":1,
+					"insta_spawn_waves":2,
 					"spawn_time_delay_after_insta_wave": 180,
 					"spawn_time_delay_for_each_min": 60,
 					"spawn_time_delay_for_each_max": 300,
@@ -158,8 +176,8 @@
 				},
 				"raider_waves":{
 					"raider_default_role":"pmcBot",
-					"raider_high_role":true,
-					"raider_high_role_chance":22,
+					"raider_high_role":false,
+					"raider_high_role_chance":0,
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
 					"wave_total":0,
 					"slot_min":3,
@@ -171,9 +189,9 @@
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
-						"easy":0,
+						"easy":2,
 						"normal":6,
-						"hard":4,
+						"hard":2,
 						"impossible":0
 					},
 					"spawn_locations":{
@@ -186,10 +204,10 @@
 				},
 				"pmc_waves":{
 					"cursedAssault_chance":0,
-					"wave_total":8,
+					"wave_total":5,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":4,
+					"insta_spawn_waves":5,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 180,
 					"spawn_time_delay_for_each_min": 60,
@@ -222,7 +240,7 @@
 			"allow_other_bot_spawn_with_boss":false,
 			"has_boss":true,
 			"bosses_spawn_location_type":"evenly",
-			"max_boss":3,
+			"max_boss":1,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -239,8 +257,8 @@
 					"escort_amount_min":2,
 					"escort_amount_max":3,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZonePort":1,
@@ -260,8 +278,8 @@
 					"escort_amount_min":3,
 					"escort_amount_max":5,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneForestGasStation":1,
@@ -278,8 +296,8 @@
 					"escort_type":null,
 					"escort_difficulty":null,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneSanatorium":1,
@@ -308,7 +326,7 @@
 					"wave_total":6,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":2,
+					"insta_spawn_waves":6,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 180,
 					"spawn_time_delay_for_each_max": 360,
@@ -342,7 +360,7 @@
 					"wave_total":2,
 					"slot_min":1,
 					"slot_max":1,
-					"insta_spawn_waves":1,
+					"insta_spawn_waves":2,
 					"spawn_time_delay_after_insta_wave": 300,
 					"spawn_time_delay_for_each_min": 240,
 					"spawn_time_delay_for_each_max": 480,
@@ -362,10 +380,10 @@
 				},
 				"raider_waves":{
 					"raider_default_role":"pmcBot",
-					"raider_high_role":true,
-					"raider_high_role_chance":22,
+					"raider_high_role":false,
+					"raider_high_role_chance":0,
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
-					"wave_total":2,
+					"wave_total":0,
 					"slot_min":3,
 					"slot_max":4,
 					"insta_spawn_waves":1,
@@ -392,10 +410,10 @@
 				},
 				"pmc_waves":{
 					"cursedAssault_chance":0,
-					"wave_total":5,
+					"wave_total":4,
 					"slot_min":1,
-					"slot_max":5,
-					"insta_spawn_waves":2,
+					"slot_max":4,
+					"insta_spawn_waves":4,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 180,
 					"spawn_time_delay_for_each_min": 300,
@@ -446,8 +464,8 @@
 					"escort_type":null,
 					"escort_difficulty":null,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneCenterBot":1,
@@ -463,14 +481,33 @@
 					"supports":null
 				},
 				{
+					"name":"bossBully",
+					"chance":35,
+					"difficulty":"normal, hard",
+					"escort_type":"followerBully",
+					"escort_difficulty":"normal, hard",
+					"escort_amount_min":2,
+					"escort_amount_max":2,
+					"wave_total":1,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
+					"wave_spawn_all_same_location":false,
+					"spawn_locations":{
+						"ZonePowerStation":1
+					},
+					"trigger_id":"",
+					"trigger_name":"",
+					"supports":null
+				},
+				{
 					"name":"gifter",
 					"chance":10,
 					"difficulty":"hard",
 					"escort_type":null,
 					"escort_difficulty":null,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneIDEA":1,
@@ -492,9 +529,9 @@
 			"wave_settings":{
 				"scav_waves":{
 					"wave_total":6,
-					"slot_min":2,
-					"slot_max":4,
-					"insta_spawn_waves":2,
+					"slot_min":1,
+					"slot_max":3,
+					"insta_spawn_waves":6,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 180,
 					"spawn_time_delay_for_each_max": 360,
@@ -521,10 +558,10 @@
 				},
 				"raider_waves":{
 					"raider_default_role":"pmcBot",
-					"raider_high_role":true,
-					"raider_high_role_chance":22,
+					"raider_high_role":false,
+					"raider_high_role_chance":0,
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
-					"wave_total":2,
+					"wave_total":1,
 					"slot_min":2,
 					"slot_max":3,
 					"insta_spawn_waves":1,
@@ -535,8 +572,8 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":4,
+						"normal":3,
+						"hard":0,
 						"impossible":0
 					},
 					"spawn_locations":{
@@ -553,8 +590,8 @@
 					"cursedAssault_chance":0,
 					"wave_total":5,
 					"slot_min":1,
-					"slot_max":4,
-					"insta_spawn_waves":2,
+					"slot_max":3,
+					"insta_spawn_waves":5,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 180,
 					"spawn_time_delay_for_each_min": 300,
@@ -591,7 +628,7 @@
 			"allow_other_bot_spawn_with_boss":false,
 			"has_boss":true,
 			"bosses_spawn_location_type":"evenly",
-			"max_boss":3,
+			"max_boss":2,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -601,13 +638,13 @@
 			"boss_settings":[
 				{
 					"name":"bossGluhar",
-					"chance":50,
+					"chance":60,
 					"difficulty":"normal, hard",
 					"escort_type":"followerGluharAssault",
 					"escort_difficulty":"normal, hard",
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneRailStrorage":3,
@@ -625,7 +662,7 @@
 								"normal"
 							],
 							"BossEscortAmount_min":1,
-							"BossEscortAmount_max":2
+							"BossEscortAmount_max":1
 						},
 						{
 							"BossEscortType":"followerGluharSecurity",
@@ -633,7 +670,7 @@
 								"normal"
 							],
 							"BossEscortAmount_min":1,
-							"BossEscortAmount_max":2
+							"BossEscortAmount_max":1
 						},
 						{
 							"BossEscortType":"followerGluharScout",
@@ -652,8 +689,8 @@
 					"escort_type":null,
 					"escort_difficulty":null,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneRailStrorage":1,
@@ -670,10 +707,10 @@
 			],
 			"wave_settings":{
 				"scav_waves":{
-					"wave_total":6,
+					"wave_total":5,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":2,
+					"insta_spawn_waves":5,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 180,
 					"spawn_time_delay_for_each_max": 360,
@@ -696,13 +733,13 @@
 				},
 				"raider_waves":{
 					"raider_default_role":"pmcBot",
-					"raider_high_role":true,
-					"raider_high_role_chance":22,
+					"raider_high_role":false,
+					"raider_high_role_chance":0,
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
 					"wave_total":2,
 					"slot_min":2,
 					"slot_max":4,
-					"insta_spawn_waves":1,
+					"insta_spawn_waves":2,
 					"spawn_time_delay_after_insta_wave": 120,
 					"spawn_time_delay_for_each_min": 480,
 					"spawn_time_delay_for_each_max": 720,
@@ -725,10 +762,10 @@
 				},
 				"pmc_waves":{
 					"cursedAssault_chance":0,
-					"wave_total":5,
+					"wave_total":4,
 					"slot_min":1,
 					"slot_max":4,
-					"insta_spawn_waves":2,
+					"insta_spawn_waves":4,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 180,
 					"spawn_time_delay_for_each_min": 300,
@@ -799,7 +836,7 @@
 			"allow_other_bot_spawn_with_boss":true,
 			"has_boss":true,
 			"bosses_spawn_location_type":"together",
-			"max_boss":3,
+			"max_boss":1,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -813,12 +850,29 @@
 					"difficulty":"normal, hard",
 					"escort_type":null,
 					"escort_difficulty":null,
-					"wave_total":2,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_total":1,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"BotZone":1
+					},
+					"trigger_id":"",
+					"trigger_name":"",
+					"supports":null
+				},
+				{
+					"name":"bossKilla",
+					"chance":35,
+					"difficulty":"normal, hard",
+					"escort_type":null,
+					"escort_difficulty":null,
+					"wave_total":1,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
+					"wave_spawn_all_same_location":false,
+					"spawn_locations":{
+						"BotZone": 1
 					},
 					"trigger_id":"",
 					"trigger_name":"",
@@ -831,8 +885,8 @@
 					"escort_type":null,
 					"escort_difficulty":null,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":100,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"BotZone":1
@@ -844,10 +898,10 @@
 			],
 			"wave_settings":{
 				"scav_waves":{
-					"wave_total":5,
+					"wave_total":4,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":2,
+					"insta_spawn_waves":4,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 180,
 					"spawn_time_delay_for_each_max": 270,
@@ -865,10 +919,10 @@
 				},
 				"pmc_waves":{
 					"cursedAssault_chance":0,
-					"wave_total":5,
+					"wave_total":3,
 					"slot_min":1,
 					"slot_max":4,
-					"insta_spawn_waves":2,
+					"insta_spawn_waves":3,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 240,
@@ -896,7 +950,7 @@
 			"allow_other_bot_spawn_with_boss":true,
 			"has_boss":true,
 			"bosses_spawn_location_type":"together",
-			"max_boss":3,
+			"max_boss":1,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -910,12 +964,29 @@
 					"difficulty":"normal, hard",
 					"escort_type":null,
 					"escort_difficulty":null,
-					"wave_total":2,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_total":1,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":true,
 					"spawn_locations":{
 						"BotZone":1
+					},
+					"trigger_id":"",
+					"trigger_name":"",
+					"supports":null
+				},
+				{
+					"name":"bossKilla",
+					"chance":35,
+					"difficulty":"normal, hard",
+					"escort_type":null,
+					"escort_difficulty":null,
+					"wave_total":1,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
+					"wave_spawn_all_same_location":false,
+					"spawn_locations":{
+						"BotZone": 1
 					},
 					"trigger_id":"",
 					"trigger_name":"",
@@ -929,9 +1000,9 @@
 					"escort_difficulty":"normal, hard",
 					"escort_amount_min":3,
 					"escort_amount_max":5,
-					"wave_total":2,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_total":1,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":100,
 					"wave_spawn_all_same_location":true,
 					"spawn_locations":{
 						"BotZone":1
@@ -947,8 +1018,8 @@
 					"escort_type":null,
 					"escort_difficulty":null,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":100,
 					"wave_spawn_all_same_location":true,
 					"spawn_locations":{
 						"BotZone":1
@@ -960,10 +1031,10 @@
 			],
 			"wave_settings":{
 				"scav_waves":{
-					"wave_total":5,
+					"wave_total":3,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":2,
+					"insta_spawn_waves":3,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 180,
 					"spawn_time_delay_for_each_max": 270,
@@ -981,10 +1052,10 @@
 				},
 				"pmc_waves":{
 					"cursedAssault_chance":0,
-					"wave_total":5,
+					"wave_total":3,
 					"slot_min":1,
 					"slot_max":4,
-					"insta_spawn_waves":2,
+					"insta_spawn_waves":3,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 240,
@@ -1012,7 +1083,7 @@
 			"allow_other_bot_spawn_with_boss":false,
 			"has_boss":true,
 			"bosses_spawn_location_type":"evenly",
-			"max_boss":3,
+			"max_boss":1,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -1027,12 +1098,16 @@
 					"escort_type":"followerBully",
 					"escort_difficulty":"normal",
 					"escort_amount_min":2,
-					"escort_amount_max":3,
+					"escort_amount_max":2,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
+						"BotZoneMain":1,
+						"BotZoneBasement":1,
+						"BotZoneFloor2":1,
+						"BotZoneFloor1":1
 					},
 					"trigger_id":"",
 					"trigger_name":"",
@@ -1045,12 +1120,16 @@
 					"escort_type":"followerSanitar",
 					"escort_difficulty":"normal",
 					"escort_amount_min":2,
-					"escort_amount_max":3,
+					"escort_amount_max":2,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
+						"BotZoneMain":1,
+						"BotZoneBasement":1,
+						"BotZoneFloor2":1,
+						"BotZoneFloor1":1
 					},
 					"trigger_id":"",
 					"trigger_name":"",
@@ -1060,13 +1139,19 @@
 					"name":"bossKilla",
 					"chance":30,
 					"difficulty":"normal, hard",
-					"escort_type":null,
-					"escort_difficulty":null,
+					"escort_type":"followerBully",
+					"escort_difficulty":"normal",
+					"escort_amount_min":2,
+					"escort_amount_max":2,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
+						"BotZoneMain":1,
+						"BotZoneBasement":1,
+						"BotZoneFloor2":1,
+						"BotZoneFloor1":1
 					},
 					"trigger_id":"",
 					"trigger_name":"",
@@ -1075,12 +1160,12 @@
 				{
 					"name":"bossGluhar",
 					"chance":30,
-					"difficulty":"normal, hard",
+					"difficulty":"normal",
 					"escort_type":"followerGluharAssault",
 					"escort_difficulty":"normal",
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 					},
@@ -1090,92 +1175,32 @@
 						{
 							"BossEscortType":"followerGluharAssault",
 							"BossEscortDifficult":[
-								"normal, hard"
+								"normal"
 							],
 							"BossEscortAmount_min":1,
-							"BossEscortAmount_max":2
-						},
-						{
-							"BossEscortType":"followerGluharSecurity",
-							"BossEscortDifficult":[
-								"normal, hard"
-							],
-							"BossEscortAmount_min":1,
-							"BossEscortAmount_max":2
+							"BossEscortAmount_max":1
 						},
 						{
 							"BossEscortType":"followerGluharScout",
 							"BossEscortDifficult":[
-								"normal, hard"
+								"normal"
 							],
 							"BossEscortAmount_min":1,
-							"BossEscortAmount_max":2
+							"BossEscortAmount_max":1
 						}
 					]
 				},
 				{
-					"name":"bossKojaniy",
-					"chance":30,
-					"difficulty":"normal, hard",
-					"escort_type":"followerKojaniy",
-					"escort_difficulty":"normal",
-					"escort_amount_min":2,
-					"escort_amount_max":3,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
-				},
-				{
-					"name":"bossTagilla",
-					"chance":30,
-					"difficulty":"normal, hard",
-					"escort_type":null,
-					"escort_difficulty":null,
-					"wave_total":2,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
-				},
-				{
-					"name":"sectantPriest",
-					"chance":20,
-					"difficulty":"normal, hard",
-					"escort_type":"sectantWarrior",
-					"escort_difficulty":"normal, hard",
-					"escort_amount_min":3,
-					"escort_amount_max":5,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
-				},
-				{
 					"name":"exUsec",
 					"chance":30,
-					"difficulty":"normal, hard",
+					"difficulty":"normal",
 					"escort_type":"exUsec",
 					"escort_difficulty":"normal",
 					"escort_amount_min":2,
-					"escort_amount_max":3,
+					"escort_amount_max":2,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 					},
@@ -1190,66 +1215,58 @@
 					"escort_type":null,
 					"escort_difficulty":null,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 					},
 					"trigger_id":"",
 					"trigger_name":"",
 					"supports":null
-				},
-				{
-					"name":"bossBully, bossGluhar, bossKilla, bossKojaniy, bossSanitar, bossTagilla, sectantPriest, exUsec, gifter",
-					"chance":20,
-					"difficulty":"normal, hard",
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":[
-						{
-							"BossEscortType":"pmcBot, pmcBot, assault",
-							"BossEscortDifficult":[
-								"normal"
-							],
-							"BossEscortAmount_min":1,
-							"BossEscortAmount_max":2
-						},
-						{
-							"BossEscortType":"sectantWarrior, followerBully, followerKojaniy, followerSanitar, followerGluharSnipe, followerGluharAssault, followerGluharScout, followerGluharSecurity",
-							"BossEscortDifficult":[
-								"normal"
-							],
-							"BossEscortAmount_min":1,
-							"BossEscortAmount_max":2
-						}
-					]
 				}
 			],
 			"wave_settings":{
+				"scav_waves":{
+					"wave_total":3,
+					"slot_min":2,
+					"slot_max":3,
+					"insta_spawn_waves":3,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 180,
+					"spawn_time_delay_for_each_max": 270,
+					"spawn_time_delay_accumulate_for_each_zone": false,
+					"spawn_location_type": "together",
+					"difficulty":{
+						"easy":2,
+						"normal":5,
+						"hard":3,
+						"impossible":0
+					},
+					"spawn_locations":{
+						"BotZoneMain":1,
+						"BotZoneBasement":1,
+						"BotZoneFloor2":1,
+						"BotZoneFloor1":1
+					}
+				},
 				"raider_waves":{
 					"raider_default_role":"pmcBot",
-					"raider_high_role":true,
+					"raider_high_role":false,
 					"raider_high_role_chance":0,
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
 					"wave_total":2,
 					"slot_min":3,
 					"slot_max":4,
-					"insta_spawn_waves":1,
+					"insta_spawn_waves":2,
 					"spawn_time_delay_after_insta_wave": 120,
 					"spawn_time_delay_for_each_min": 300,
 					"spawn_time_delay_for_each_max": 480,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
-						"easy":0,
+						"easy":1,
 						"normal":6,
-						"hard":4,
+						"hard":3,
 						"impossible":0
 					},
 					"spawn_locations":{
@@ -1261,10 +1278,10 @@
 				},
 				"pmc_waves":{
 					"cursedAssault_chance":0,
-					"wave_total":5,
-					"slot_min":1,
+					"wave_total":3,
+					"slot_min":2,
 					"slot_max":5,
-					"insta_spawn_waves":2,
+					"insta_spawn_waves":3,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 180,
 					"spawn_time_delay_for_each_min": 300,
@@ -1465,7 +1482,7 @@
 			"allow_other_bot_spawn_with_boss":false,
 			"has_boss":true,
 			"bosses_spawn_location_type":"evenly",
-			"max_boss":3,
+			"max_boss":2,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -1482,8 +1499,8 @@
 					"escort_amount_min":2,
 					"escort_amount_max":2,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneWoodCutter":1
@@ -1495,14 +1512,14 @@
 				{
 					"name":"sectantPriest",
 					"chance":20,
-					"difficulty":"normal, hard",
+					"difficulty":"normal",
 					"escort_type":"sectantWarrior",
-					"escort_difficulty":"normal, hard",
+					"escort_difficulty":"easy",
 					"escort_amount_min":3,
 					"escort_amount_max":5,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneMiniHouse":1,
@@ -1519,8 +1536,8 @@
 					"escort_type":null,
 					"escort_difficulty":null,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneRedHouse":1,
@@ -1540,10 +1557,10 @@
 			],
 			"wave_settings":{
 				"scav_waves":{
-					"wave_total":6,
+					"wave_total":4,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":3,
+					"insta_spawn_waves":4,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 180,
 					"spawn_time_delay_for_each_max": 360,
@@ -1589,12 +1606,12 @@
 				},
 				"raider_waves":{
 					"raider_default_role":"pmcBot",
-					"raider_high_role":true,
+					"raider_high_role":false,
 					"raider_high_role_chance":0,
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
-					"wave_total":2,
+					"wave_total":1,
 					"slot_min":2,
-					"slot_max":3,
+					"slot_max":2,
 					"insta_spawn_waves":1,
 					"spawn_time_delay_after_insta_wave": 120,
 					"spawn_time_delay_for_each_min": 480,
@@ -1621,10 +1638,10 @@
 				},
 				"pmc_waves":{
 					"cursedAssault_chance":0,
-					"wave_total":5,
+					"wave_total":4,
 					"slot_min":1,
-					"slot_max":5,
-					"insta_spawn_waves":2,
+					"slot_max":3,
+					"insta_spawn_waves":4,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 180,
 					"spawn_time_delay_for_each_min": 300,
@@ -1660,7 +1677,7 @@
 			"allow_other_bot_spawn_with_boss":false,
 			"has_boss":true,
 			"bosses_spawn_location_type":"evenly",
-			"max_boss":3,
+			"max_boss":1,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -1701,8 +1718,8 @@
 					"escort_type":null,
 					"escort_difficulty":null,
 					"wave_total":1,
-					"wave_spawn_time_for_each_min":600,
-					"wave_spawn_time_for_each_max":900,
+					"wave_spawn_time_for_each_min":0,
+					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"Zone_TreatmentRocks":1,
@@ -1729,10 +1746,10 @@
 			],
 			"wave_settings":{
 				"scav_waves":{
-					"wave_total":6,
+					"wave_total":4,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":2,
+					"insta_spawn_waves":4,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 180,
 					"spawn_time_delay_for_each_max": 360,
@@ -1756,7 +1773,7 @@
 					}
 				},
 				"sniper_waves":{
-					"wave_total":2,
+					"wave_total":1,
 					"slot_min":1,
 					"slot_max":1,
 					"insta_spawn_waves":1,
@@ -1782,10 +1799,10 @@
 				},
 				"raider_waves":{
 					"raider_default_role":"pmcBot",
-					"raider_high_role":true,
-					"raider_high_role_chance":15,
+					"raider_high_role":false,
+					"raider_high_role_chance":0,
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
-					"wave_total":2,
+					"wave_total":1,
 					"slot_min":2,
 					"slot_max":4,
 					"insta_spawn_waves":1,
@@ -1813,10 +1830,10 @@
 				},
 				"pmc_waves":{
 					"cursedAssault_chance":0,
-					"wave_total":5,
+					"wave_total":4,
 					"slot_min":1,
-					"slot_max":5,
-					"insta_spawn_waves":2,
+					"slot_max":4,
+					"insta_spawn_waves":4,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 180,
 					"spawn_time_delay_for_each_min": 300,

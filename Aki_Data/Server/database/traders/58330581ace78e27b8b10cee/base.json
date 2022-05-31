@@ -43,7 +43,7 @@
             "exchange_price_coef": 0,
             "heal_price_coef": 0
         }, {
-            "minLevel": 14,
+            "minLevel": 12,
             "minSalesSum": 800000,
             "minStanding": 0.2,
             "buy_price_coef": 51,

@@ -25854,7 +25854,7 @@
             "index": 0,
             "parentId": "",
             "dynamicLocale": false,
-            "value": 7,
+            "value": 2,
             "compareMethod": ">=",
             "visibilityConditions": []
           },
@@ -34212,16 +34212,15 @@
       ],
       "AvailableForStart": [
         {
-          "_parent": "Quest",
+          "_parent": "Level",
           "_props": {
-            "id": "",
-            "index": 1,
+            "id": "5b4f0d6086f7742c1f5a3c4d",
+            "index": 0,
             "parentId": "",
             "dynamicLocale": false,
-            "target": "5ac242ab86f77412464f68b4",
-            "status": [
-              4
-            ]
+            "value": 20,
+            "compareMethod": ">=",
+            "visibilityConditions": []
           },
           "dynamicLocale": false
         }
@@ -36652,7 +36651,7 @@
             "target": [
               "590c5d4b86f774784e1b9c45"
             ],
-            "value": "3",
+            "value": "1",
             "visibilityConditions": []
           },
           "dynamicLocale": false
