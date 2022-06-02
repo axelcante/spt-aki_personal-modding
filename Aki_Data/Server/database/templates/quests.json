@@ -2155,7 +2155,7 @@
             "dynamicLocale": false,
             "type": "Elimination",
             "doNotResetIfCounterCompleted": false,
-            "value": "25",
+            "value": "15",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -8010,7 +8010,7 @@
             "index": 1,
             "parentId": "",
             "dynamicLocale": false,
-            "target": "5968eb3186f7741dde183a4d",
+            "target": "5967733e86f774602332fc84",
             "status": [
               4
             ]
@@ -21757,7 +21757,7 @@
             "dynamicLocale": false,
             "type": "Elimination",
             "doNotResetIfCounterCompleted": false,
-            "value": "3",
+            "value": "1",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -21802,7 +21802,7 @@
             "dynamicLocale": false,
             "type": "Elimination",
             "doNotResetIfCounterCompleted": false,
-            "value": "3",
+            "value": "1",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -21847,7 +21847,7 @@
             "dynamicLocale": false,
             "type": "Elimination",
             "doNotResetIfCounterCompleted": false,
-            "value": "3",
+            "value": "1",
             "visibilityConditions": []
           },
           "dynamicLocale": false
@@ -21892,7 +21892,7 @@
             "dynamicLocale": false,
             "type": "Elimination",
             "doNotResetIfCounterCompleted": false,
-            "value": "3",
+            "value": "1",
             "visibilityConditions": []
           },
           "dynamicLocale": false

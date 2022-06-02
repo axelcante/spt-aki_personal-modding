@@ -6789,7 +6789,7 @@
       "Chance": 66,
       "Count": 5000,
       "EntryPoints": "Customs,Boiler Tanks",
-      "ExfiltrationTime": 60,
+      "ExfiltrationTime": 5,
       "ExfiltrationType": "SharedTimer",
       "Id": "5449016a4bdc2d6f028b456f",
       "MaxTime": 0,
