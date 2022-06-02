@@ -11992,14 +11992,14 @@
           "target": "58330581ace78e27b8b10cee"
         },
         {
-          "value": "-0.05",
+          "value": "-0.01",
           "id": "60c8afc91f21c1669a48c327",
           "type": "TraderStanding",
           "index": 1,
           "target": "54cb50c76803fa8b248b4571"
         },
         {
-          "value": "-0.02",
+          "value": "-0.01",
           "id": "60c8afce9339363e8f0c6ada",
           "type": "TraderStanding",
           "index": 2,
@@ -36777,6 +36777,20 @@
               }
             }
           ]
+        },
+        {
+          "id": "5ac6676e86f774056634a230",
+          "type": "AssortmentUnlock",
+          "index": 4,
+          "target": "622a41dedd8fd175943c016z",
+          "items": [
+            {
+              "_id": "622a41dedd8fd175943c016z",
+              "_tpl": "590c5d4b86f774784e1b9c45"
+            }
+          ],
+          "loyaltyLevel": 1,
+          "traderId": "5c0647fdd443bc2504c2d371"
         }
       ],
       "Fail": []

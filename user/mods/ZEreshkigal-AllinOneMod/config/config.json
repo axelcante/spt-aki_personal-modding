@@ -15,7 +15,7 @@
     "InRaidModdable": false,
     "IncreaseLootExp": false,
     "IncreaseExamineExp": false,
-    "RemoveKeysUsageNumber": true,
+    "RemoveKeysUsageNumber": false,
     "StackableBarters": {
       "activated": false,
       "Battery": 1,
