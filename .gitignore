@@ -18,6 +18,6 @@ user/profiles
 *.md
 *.png
 license
-mods/zFin-AITweaks/donottouch/
-mods/zFin-AITweaks/package.js
-mods/zFin-AITweaks/package.json
+user/mods/zFin-AITweaks/donottouch/
+user/mods/zFin-AITweaks/package.js
+user/mods/zFin-AITweaks/package.json
