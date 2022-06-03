@@ -1,0 +1,10 @@
+{
+    "modList": [
+        "CoreMod",
+        "Lua-FleaMarketPriceUpdater",
+        "Lua-SpawnRework",
+        "ZEreshkigal-AllinOneMod",
+        "zFin-AITweaks",
+        "zThatGuyXIV-LootConfig"
+    ]
+}

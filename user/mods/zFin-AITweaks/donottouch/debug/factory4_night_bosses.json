@@ -1,0 +1,66 @@
+[
+    {
+        "BossName": "sectantPriest",
+        "BossChance": 100,
+        "BossZone": "BotZone",
+        "BossPlayer": false,
+        "BossDifficult": "hard",
+        "BossEscortType": "sectantWarrior",
+        "BossEscortDifficult": "hard",
+        "BossEscortAmount": 4,
+        "Time": -1
+    },
+    {
+        "BossName": "sectantPriest",
+        "BossChance": 100,
+        "BossZone": "BotZone",
+        "BossPlayer": false,
+        "BossDifficult": "hard",
+        "BossEscortType": "sectantWarrior",
+        "BossEscortDifficult": "hard",
+        "BossEscortAmount": 4,
+        "Time": 711
+    }
+]{
+    "Totals:": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Cultists": {
+            "waves": 2,
+            "botsMin": 10,
+            "botsMax": 10
+        },
+        "Marksmen": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    }
+}

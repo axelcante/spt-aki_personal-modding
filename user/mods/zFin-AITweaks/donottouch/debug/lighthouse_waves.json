@@ -1,0 +1,221 @@
+[
+    {
+        "number": 0,
+        "time_min": -1,
+        "time_max": -1,
+        "slots_min": 2,
+        "slots_max": 2,
+        "SpawnPoints": "Zone_Rocks",
+        "BotSide": "Savage",
+        "BotPreset": "hard",
+        "WildSpawnType": "pmcBot",
+        "isPlayers": false
+    },
+    {
+        "number": 0,
+        "time_min": -1,
+        "time_max": -1,
+        "slots_min": 1,
+        "slots_max": 1,
+        "SpawnPoints": "ZoneSnipeTower",
+        "BotSide": "Savage",
+        "BotPreset": "normal",
+        "WildSpawnType": "marksman",
+        "isPlayers": false
+    },
+    {
+        "number": 0,
+        "time_min": -1,
+        "time_max": -1,
+        "slots_min": 2,
+        "slots_max": 1,
+        "SpawnPoints": "Zone_LongRoad",
+        "BotSide": "Savage",
+        "BotPreset": "easy",
+        "WildSpawnType": "assault",
+        "isPlayers": false
+    },
+    {
+        "number": 0,
+        "time_min": -1,
+        "time_max": -1,
+        "slots_min": 2,
+        "slots_max": 2,
+        "SpawnPoints": "Zone_Rocks",
+        "BotSide": "Savage",
+        "BotPreset": "hard",
+        "WildSpawnType": "assault",
+        "isPlayers": false
+    },
+    {
+        "number": 0,
+        "time_min": -1,
+        "time_max": -1,
+        "slots_min": 3,
+        "slots_max": 3,
+        "SpawnPoints": "Zone_Bridge",
+        "BotSide": "Savage",
+        "BotPreset": "normal",
+        "WildSpawnType": "assaultGroup",
+        "isPlayers": false
+    },
+    {
+        "number": 0,
+        "time_min": -1,
+        "time_max": -1,
+        "slots_min": 3,
+        "slots_max": 3,
+        "SpawnPoints": "Zone_Bridge",
+        "BotSide": "Savage",
+        "BotPreset": "hard",
+        "WildSpawnType": "cursedAssault",
+        "isPlayers": false
+    },
+    {
+        "number": 1,
+        "time_min": 399,
+        "time_max": 399,
+        "slots_min": 3,
+        "slots_max": 3,
+        "SpawnPoints": "Zone_OldHouse",
+        "BotSide": "Savage",
+        "BotPreset": "impossible",
+        "WildSpawnType": "assaultGroup",
+        "isPlayers": false
+    },
+    {
+        "number": 2,
+        "time_min": 857,
+        "time_max": 857,
+        "slots_min": 3,
+        "slots_max": 3,
+        "SpawnPoints": "Zone_DestroyedHouse",
+        "BotSide": "Savage",
+        "BotPreset": "normal",
+        "WildSpawnType": "assaultGroup",
+        "isPlayers": false
+    },
+    {
+        "number": 3,
+        "time_min": 216,
+        "time_max": 216,
+        "slots_min": 1,
+        "slots_max": 1,
+        "SpawnPoints": "Zone_Rocks",
+        "BotSide": "Savage",
+        "BotPreset": "normal",
+        "WildSpawnType": "assault",
+        "isPlayers": false
+    },
+    {
+        "number": 4,
+        "time_min": 500,
+        "time_max": 500,
+        "slots_min": 1,
+        "slots_max": 1,
+        "SpawnPoints": "Zone_OldHouse",
+        "BotSide": "Savage",
+        "BotPreset": "impossible",
+        "WildSpawnType": "assault",
+        "isPlayers": false
+    },
+    {
+        "number": 5,
+        "time_min": 723,
+        "time_max": 723,
+        "slots_min": 2,
+        "slots_max": 1,
+        "SpawnPoints": "Zone_Containers",
+        "BotSide": "Savage",
+        "BotPreset": "normal",
+        "WildSpawnType": "assault",
+        "isPlayers": false
+    },
+    {
+        "number": 6,
+        "time_min": 987,
+        "time_max": 987,
+        "slots_min": 2,
+        "slots_max": 2,
+        "SpawnPoints": "Zone_Bridge",
+        "BotSide": "Savage",
+        "BotPreset": "normal",
+        "WildSpawnType": "assault",
+        "isPlayers": false
+    },
+    {
+        "number": 7,
+        "time_min": 346,
+        "time_max": 346,
+        "slots_min": 1,
+        "slots_max": 1,
+        "SpawnPoints": "Zone_SniperPeak",
+        "BotSide": "Savage",
+        "BotPreset": "hard",
+        "WildSpawnType": "marksman",
+        "isPlayers": false
+    },
+    {
+        "number": 8,
+        "time_min": 605,
+        "time_max": 605,
+        "slots_min": 2,
+        "slots_max": 2,
+        "SpawnPoints": "Zone_Chalet",
+        "BotSide": "Savage",
+        "BotPreset": "impossible",
+        "WildSpawnType": "pmcBot",
+        "isPlayers": false
+    }
+]{
+    "Totals:": {
+        "PMCs": {
+            "spawnChance": {
+                "100": {
+                    "waves": 3,
+                    "botsMin": 9,
+                    "botsMax": 9
+                }
+            }
+        },
+        "Raiders": {
+            "waves": 2,
+            "botsMin": 4,
+            "botsMax": 4
+        },
+        "Scavs": {
+            "waves": 6,
+            "botsMin": 10,
+            "botsMax": 8
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Cultists": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Marksmen": {
+            "waves": 2,
+            "botsMin": 2,
+            "botsMax": 2
+        },
+        "Unknown": {
+            "waves": 1,
+            "botsMin": 3,
+            "botsMax": 3,
+            "types": [
+                "cursedAssault"
+            ],
+            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
+        }
+    }
+}

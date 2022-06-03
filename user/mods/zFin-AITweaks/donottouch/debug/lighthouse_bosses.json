@@ -1,0 +1,106 @@
+[
+    {
+        "BossName": "exUsec",
+        "BossChance": 100,
+        "BossZone": "Zone_Blockpost",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "exUsec",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 3,
+        "Time": -1
+    },
+    {
+        "BossName": "exUsec",
+        "BossChance": 100,
+        "BossZone": "Zone_RoofContainers",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "exUsec",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 3,
+        "Time": 0
+    },
+    {
+        "BossName": "exUsec",
+        "BossChance": 100,
+        "BossZone": "Zone_TreatmentRocks",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "exUsec",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 1,
+        "Time": 0
+    },
+    {
+        "BossName": "exUsec",
+        "BossChance": 100,
+        "BossZone": "Zone_Hellicopter",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "exUsec",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 2,
+        "Time": 0
+    },
+    {
+        "BossName": "exUsec",
+        "BossChance": 100,
+        "BossZone": "Zone_TreatmentContainers",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "exUsec",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 3,
+        "Time": 0
+    }
+]{
+    "Totals:": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Cultists": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Marksmen": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Unknown": {
+            "waves": 5,
+            "botsMin": 17,
+            "botsMax": 17,
+            "types": [
+                "exUsec",
+                "exUsec",
+                "exUsec",
+                "exUsec",
+                "exUsec"
+            ],
+            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
+        }
+    }
+}

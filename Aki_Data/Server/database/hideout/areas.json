@@ -444,7 +444,7 @@
           },
           {
             "areaType": 0,
-            "requiredLevel": 2,
+            "requiredLevel": 1,
             "type": "Area"
           },
           {
@@ -1958,7 +1958,7 @@
         "requirements": [
           {
             "areaType": 11,
-            "requiredLevel": 2,
+            "requiredLevel": 1,
             "type": "Area"
           },
           {

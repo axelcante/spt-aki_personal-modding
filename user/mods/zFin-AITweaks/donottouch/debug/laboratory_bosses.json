@@ -1,0 +1,111 @@
+[
+    {
+        "BossName": "bossKojaniy",
+        "BossChance": 100,
+        "BossZone": "BotZoneFloor1",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerKojaniy",
+        "BossEscortDifficult": "hard",
+        "BossEscortAmount": 2,
+        "Time": -1
+    },
+    {
+        "BossName": "pmcBot",
+        "BossChance": 100,
+        "BossZone": "BotZoneBasement",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "pmcBot",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 0,
+        "Time": 450,
+        "TriggerId": "00404",
+        "TriggerName": "interactObject",
+        "Supports": null
+    },
+    {
+        "BossName": "pmcBot",
+        "BossChance": 100,
+        "BossZone": "BotZoneBasement",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "pmcBot",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 1,
+        "Time": 800,
+        "TriggerId": "00409",
+        "TriggerName": "interactObject",
+        "Supports": null
+    },
+    {
+        "BossName": "pmcBot",
+        "BossChance": 100,
+        "BossZone": "BotZoneGate1",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "pmcBot",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 0,
+        "Time": -1,
+        "TriggerId": "autoId_00012_EXFIL",
+        "TriggerName": "interactObject",
+        "Supports": null
+    },
+    {
+        "BossName": "pmcBot",
+        "BossChance": 100,
+        "BossZone": "BotZoneFloor1",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "pmcBot",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 2,
+        "Time": -1,
+        "TriggerId": "autoId_00009_EXFIL",
+        "TriggerName": "interactObject",
+        "Supports": null
+    }
+]{
+    "Totals:": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 4,
+            "botsMin": 7,
+            "botsMax": 7
+        },
+        "Scavs": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 1,
+            "botsMin": 3,
+            "botsMax": 3
+        },
+        "Cultists": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Marksmen": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    }
+}

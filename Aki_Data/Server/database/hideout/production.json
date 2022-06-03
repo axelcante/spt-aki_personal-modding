@@ -215,7 +215,7 @@
     "requirements": [
       {
         "templateId": "59e36c6f86f774176c10a2a7",
-        "count": 2,
+        "count": 1,
         "isFunctional": false,
         "type": "Item"
       },
@@ -1461,7 +1461,7 @@
       },
       {
         "templateId": "5d6fc78386f77449d825f9dc",
-        "count": 2,
+        "count": 1,
         "isFunctional": false,
         "type": "Item"
       }
@@ -1897,14 +1897,14 @@
       },
       {
         "templateId": "5d6fc87386f77449db3db94e",
-        "count": 2,
+        "count": 1,
         "isFunctional": false,
         "type": "Item"
       }
     ],
     "productionTime": 44900,
     "boosters": null,
-    "endProduct": "59e6906286f7746c9f75e847",
+    "endProduct": "54527ac44bdc2d36668b4567",
     "continuous": false,
     "count": 200,
     "productionLimitCount": 0

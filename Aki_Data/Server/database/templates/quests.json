@@ -39456,7 +39456,7 @@
             "dynamicLocale": false,
             "type": "Elimination",
             "doNotResetIfCounterCompleted": false,
-            "value": "15",
+            "value": "5",
             "visibilityConditions": []
           },
           "dynamicLocale": false

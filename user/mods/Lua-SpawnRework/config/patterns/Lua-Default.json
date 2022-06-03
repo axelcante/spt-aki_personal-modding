@@ -1693,7 +1693,7 @@
 					"escort_difficulty":"normal",
 					"escort_amount_min":1,
 					"escort_amount_max":3,
-					"wave_total":5,
+					"wave_total":1,
 					"wave_spawn_time_for_each_min":0,
 					"wave_spawn_time_for_each_max":0,
 					"wave_spawn_all_same_location":false,
@@ -1783,9 +1783,9 @@
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "evenly",
 					"difficulty":{
-						"easy":0,
+						"easy":2,
 						"normal":2,
-						"hard":2,
+						"hard":0,
 						"impossible":0
 					},
 					"spawn_locations":{
@@ -1804,7 +1804,7 @@
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
 					"wave_total":1,
 					"slot_min":2,
-					"slot_max":4,
+					"slot_max":2,
 					"insta_spawn_waves":1,
 					"spawn_time_delay_after_insta_wave": 120,
 					"spawn_time_delay_for_each_min": 480,
@@ -1830,10 +1830,10 @@
 				},
 				"pmc_waves":{
 					"cursedAssault_chance":0,
-					"wave_total":4,
+					"wave_total":3,
 					"slot_min":1,
 					"slot_max":4,
-					"insta_spawn_waves":4,
+					"insta_spawn_waves":3,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 180,
 					"spawn_time_delay_for_each_min": 300,
