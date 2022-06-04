@@ -36,9 +36,9 @@
             ],
             "highLevelAIs": []
         },
-        "overallAIDifficultyMod": -2,
+        "overallAIDifficultyMod": 0,
         "lowLevelAIDifficultyMod_Neg3_3": 0,
-        "midLevelAIDifficultyMod_Neg3_3": 0,
+        "midLevelAIDifficultyMod_Neg3_3": 1,
         "highLevelAIDifficultyMod_Neg3_3": 0,
         "IfYouDisableTheseThePMCSWontCountForQuestKills": {
             "scavsFightBEARBots": true,
@@ -47,9 +47,9 @@
         "Note": "These are the MAIN values for adjusting difficulty. If you want an easier or harder time overall, increase or decrease these. For details on these or any other entries, please check the readme."
     },
     "overallDifficultyMultipliers": {
-        "aiAimSpeedMult": 2,
+        "aiAimSpeedMult": 1.6,
         "aiShotSpreadMult": 1.3,
-        "aiVisionSpeedMult": 4,
+        "aiVisionSpeedMult": 1.3,
         "aiAccuracyMult": 2,
         "sniperBotAccuracyMult": 1.4,
         "visibleDistanceMult": 0.7,
@@ -107,8 +107,8 @@
     "AIgearChanges": {
         "CheckREADMEforInfo": {
             "optimizedLoading": true,
-            "saveGearToFile": false,
-            "loadGearFromFile": true
+            "saveGearToFile": true,
+            "loadGearFromFile": false
         },
         "scavBots": [
             "assault"
@@ -289,7 +289,7 @@
             "moreModVariety": true,
             "modQuality0_10": 10,
             "modFrequency0_2": 1,
-            "magQuality0_10": 10,
+            "magQuality0_10": 8,
             "magDowngradeChance": 50,
             "chance_for_headwear_to_be_armored": 50,
             "armorLevelMin_Max": [
@@ -304,7 +304,7 @@
                 1,
                 2,
                 3,
-                2,
+                3,
                 2,
                 1
             ],
@@ -343,12 +343,12 @@
                 60
             ],
             "healingItemsMin_Max": [
-                3,
-                5
+                1,
+                4
             ],
             "magazinesInVestMin_Max": [
                 2,
-                2
+                4
             ],
             "backpackSizeMin_Max": [
                 -1,

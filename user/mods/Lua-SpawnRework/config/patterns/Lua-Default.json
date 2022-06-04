@@ -148,6 +148,7 @@
 						"ZoneWade":1,
 						"ZoneScavBase":1,
 						"ZoneTankSquare":1
+						
 					}
 				},
 				"sniper_waves":{
@@ -221,12 +222,18 @@
 						"impossible":0
 					},
 					"spawn_locations":{
-						"ZoneDormitory":2,
+						"ZoneDormitory":3,
 						"ZoneGasStation":2,
-						"ZoneWade":1,
+						"ZoneWade":2,
 						"ZoneScavBase":2,
-						"ZoneCrossRoad":1,
-						"ZoneCustoms":1
+						"ZoneCrossRoad":2,
+						"ZoneCustoms":2,
+						"ZoneBrige":2,
+						"ZoneOldAZS":2,
+						"ZoneBlockPost":2,
+						"ZoneFactoryCenter":2,
+						"ZoneFactorySide":2,
+						"ZoneTankSquare":2
 					}
 				}
 			}
