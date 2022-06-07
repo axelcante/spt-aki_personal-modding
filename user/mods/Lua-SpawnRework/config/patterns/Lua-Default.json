@@ -33,7 +33,7 @@
 			"allow_other_bot_spawn_with_boss":false,
 			"has_boss":true,
 			"bosses_spawn_location_type":"evenly",
-			"max_boss":3,
+			"max_boss":2,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -94,25 +94,6 @@
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZoneScavBase":1
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
-				},
-				{
-					"name":"gifter",
-					"chance":10,
-					"difficulty":"hard",
-					"escort_type":null,
-					"escort_difficulty":null,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":0,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-						"ZoneScavBase":1,
-						"ZoneGasStation":1,
-						"ZoneDormitory":1
 					},
 					"trigger_id":"",
 					"trigger_name":"",
@@ -295,37 +276,6 @@
 					"trigger_id":"",
 					"trigger_name":"",
 					"supports":null
-				},
-				{
-					"name":"gifter",
-					"chance":10,
-					"difficulty":"normal",
-					"escort_type":null,
-					"escort_difficulty":null,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":0,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-						"ZoneSanatorium":1,
-						"ZoneSanatorium1":1,
-						"ZoneSanatorium2":1,
-						"ZoneStartVillage":1,
-						"ZoneBunker":1,
-						"ZoneGreenHouses":1,
-						"ZoneGasStation":1,
-						"ZoneMeteoStation":1,
-						"ZonePowerStation":1,
-						"ZoneBusStation":1,
-						"ZonePort":1,
-						"ZoneIsland":1,
-						"ZoneRailWays":1,
-						"ZoneForestTruck":1,
-						"ZoneForestSpawn":1
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
 				}
 			],
 			"wave_settings":{
@@ -456,7 +406,7 @@
 			"allow_other_bot_spawn_with_boss":false,
 			"has_boss":true,
 			"bosses_spawn_location_type":"evenly",
-			"max_boss":3,
+			"max_boss":2,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -501,32 +451,6 @@
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"ZonePowerStation":1
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
-				},
-				{
-					"name":"gifter",
-					"chance":10,
-					"difficulty":"hard",
-					"escort_type":null,
-					"escort_difficulty":null,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":0,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-						"ZoneIDEA":1,
-						"ZoneRoad":1,
-						"ZoneOLI":1,
-						"ZonePowerStation":1,
-						"ZoneCenter":1,
-						"ZoneCenterBot":1,
-						"ZoneTrucks":1,
-						"ZoneIDEAPark":1,
-						"ZoneOLIPark":1,
-						"ZoneGoshan":1
 					},
 					"trigger_id":"",
 					"trigger_name":"",
@@ -635,7 +559,7 @@
 			"allow_other_bot_spawn_with_boss":false,
 			"has_boss":true,
 			"bosses_spawn_location_type":"evenly",
-			"max_boss":2,
+			"max_boss":1,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":false,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -688,28 +612,6 @@
 							"BossEscortAmount_max":2
 						}
 					]
-				},
-				{
-					"name":"gifter",
-					"chance":10,
-					"difficulty":"hard",
-					"escort_type":null,
-					"escort_difficulty":null,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":0,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-						"ZoneRailStrorage":1,
-						"ZonePTOR1":1,
-						"ZonePTOR2":1,
-						"ZoneBarrack":1,
-						"ZoneSubStorage":1,
-						"ZoneSubCommand":1
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
 				}
 			],
 			"wave_settings":{
@@ -884,23 +786,6 @@
 					"trigger_id":"",
 					"trigger_name":"",
 					"supports":null
-				},
-				{
-					"name":"gifter",
-					"chance":10,
-					"difficulty":"hard",
-					"escort_type":null,
-					"escort_difficulty":null,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":100,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-						"BotZone":1
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
 				}
 			],
 			"wave_settings":{
@@ -1007,23 +892,6 @@
 					"escort_difficulty":"normal, hard",
 					"escort_amount_min":3,
 					"escort_amount_max":5,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":100,
-					"wave_spawn_all_same_location":true,
-					"spawn_locations":{
-						"BotZone":1
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
-				},
-				{
-					"name":"gifter",
-					"chance":10,
-					"difficulty":"hard",
-					"escort_type":null,
-					"escort_difficulty":null,
 					"wave_total":1,
 					"wave_spawn_time_for_each_min":0,
 					"wave_spawn_time_for_each_max":100,
@@ -1205,22 +1073,6 @@
 					"escort_difficulty":"normal",
 					"escort_amount_min":2,
 					"escort_amount_max":2,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":0,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
-				},
-				{
-					"name":"gifter",
-					"chance":10,
-					"difficulty":"hard",
-					"escort_type":null,
-					"escort_difficulty":null,
 					"wave_total":1,
 					"wave_spawn_time_for_each_min":0,
 					"wave_spawn_time_for_each_max":0,
@@ -1535,31 +1387,6 @@
 					"trigger_id":"",
 					"trigger_name":"",
 					"supports":null
-				},
-				{
-					"name":"gifter",
-					"chance":10,
-					"difficulty":"hard",
-					"escort_type":null,
-					"escort_difficulty":null,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":0,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-						"ZoneRedHouse":1,
-						"ZoneWoodCutter":1,
-						"ZoneHouse":1,
-						"ZoneBigRocks":1,
-						"ZoneMiniHouse":1,
-						"ZoneClearVill":1,
-						"ZoneScavBase2":1,
-						"ZoneRoad":1,
-						"ZoneBrokenVill":1
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
 				}
 			],
 			"wave_settings":{
@@ -1713,38 +1540,6 @@
 						"Zone_RoofRocks":1,
 						"Zone_Hellicopter":1,
 						"Zone_Blockpost":1
-					},
-					"trigger_id":"",
-					"trigger_name":"",
-					"supports":null
-				},
-				{
-					"name":"gifter",
-					"chance":10,
-					"difficulty":"hard",
-					"escort_type":null,
-					"escort_difficulty":null,
-					"wave_total":1,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":0,
-					"wave_spawn_all_same_location":false,
-					"spawn_locations":{
-						"Zone_TreatmentRocks":1,
-						"Zone_TreatmentContainers":1,
-						"Zone_TreatmentBeach":1,
-						"Zone_RoofBeach":1,
-						"Zone_RoofContainers":1,
-						"Zone_RoofRocks":1,
-						"Zone_Hellicopter":1,
-						"Zone_Blockpost":1,
-						"Zone_Village":1,
-						"Zone_DestroyedHouse":1,
-						"Zone_Containers":1,
-						"Zone_Rocks":1,
-						"Zone_Chalet":1,
-						"Zone_Bridge":1,
-						"Zone_OldHouse":1,
-						"Zone_LongRoad":1
 					},
 					"trigger_id":"",
 					"trigger_name":"",

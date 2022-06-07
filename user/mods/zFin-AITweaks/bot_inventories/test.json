@@ -881,6 +881,8 @@
             ],
             "patron_in_weapon": [
                 "5c0d688c86f77413ae3407b2",
+                "61962d879bb3d20b0946d385",
+                "57a0e5022459774d1673f889",
                 "5c0d668f86f7747ccb7f13b2"
             ]
         },
@@ -926,6 +928,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -1014,6 +1018,7 @@
                 "5f633ff5c444ce7e3c30a006"
             ],
             "patron_in_weapon": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
@@ -1116,6 +1121,7 @@
                 "5ae30bad5acfc400185c2dc4"
             ],
             "patron_in_weapon": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
@@ -1176,6 +1182,7 @@
                 "6181688c6c780c1e710c9b04"
             ],
             "patron_in_weapon": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
@@ -1262,7 +1269,10 @@
             "patron_in_weapon": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "618428466ef05c2ce828f218": {
@@ -1319,6 +1329,7 @@
                 "6181688c6c780c1e710c9b04"
             ],
             "patron_in_weapon": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
@@ -1409,6 +1420,7 @@
                 "5648ac824bdc2ded0b8b457d"
             ],
             "patron_in_weapon": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
@@ -1525,6 +1537,7 @@
                 "5648ac824bdc2ded0b8b457d"
             ],
             "patron_in_weapon": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
@@ -1737,6 +1750,7 @@
                 "5f633ff5c444ce7e3c30a006"
             ],
             "patron_in_weapon": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
@@ -1788,6 +1802,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -1848,6 +1864,7 @@
                 "5fbcc640016cce60e8341acc"
             ],
             "patron_in_weapon": [
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
@@ -2119,6 +2136,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -2167,6 +2186,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -2292,7 +2313,10 @@
             "patron_in_weapon": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "5dcbd56fdbd3d91b3e5468d5": {
@@ -2383,6 +2407,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -2740,6 +2766,7 @@
                 "57d17e212459775a1179a0f5"
             ],
             "patron_in_weapon": [
+                "5cadf6ddae9215051e1c23b2",
                 "5cadf6eeae921500134b2799"
             ]
         },
@@ -2839,7 +2866,10 @@
             "patron_in_weapon": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "5d43021ca4b9362eab4b5e25": {
@@ -2927,6 +2957,7 @@
                 "5f633ff5c444ce7e3c30a006"
             ],
             "patron_in_weapon": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
@@ -2976,6 +3007,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -3032,6 +3065,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -3171,6 +3206,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -3222,7 +3259,8 @@
                 "5fc278107283c4046c581489"
             ],
             "patron_in_weapon": [
-                "5fc382a9d724d907e2077dab"
+                "5fc382a9d724d907e2077dab",
+                "5fc275cf85fd526b824a571a"
             ]
         },
         "5f2a9575926fd9352339381f": {
@@ -3242,6 +3280,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -3336,6 +3376,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -3382,6 +3424,8 @@
             ],
             "patron_in_weapon": [
                 "5c0d688c86f77413ae3407b2",
+                "61962d879bb3d20b0946d385",
+                "57a0e5022459774d1673f889",
                 "5c0d668f86f7747ccb7f13b2"
             ]
         },
@@ -3616,6 +3660,7 @@
             ],
             "patron_in_weapon": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -3671,6 +3716,7 @@
             ],
             "patron_in_weapon": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -3792,7 +3838,8 @@
             ],
             "patron_in_weapon": [
                 "5ba26835d4351e0035628ff5",
-                "5ba2678ad4351e44f824b344"
+                "5ba2678ad4351e44f824b344",
+                "5ba26844d4351e00334c9475"
             ]
         },
         "5e00903ae9dc277128008b87": {
@@ -3818,6 +3865,7 @@
             ],
             "patron_in_weapon": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -3845,7 +3893,8 @@
             "patron_in_weapon": [
                 "5cc80f53e4a949000e1ea4f8",
                 "5cc80f67e4a949035e43bbba",
-                "5cc80f38e4a949001152b560"
+                "5cc80f38e4a949001152b560",
+                "5cc80f8fe4a949033b0224a2"
             ]
         },
         "5926bb2186f7744b1c6c6e60": {
@@ -3862,6 +3911,7 @@
             ],
             "patron_in_weapon": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -3931,7 +3981,8 @@
             ],
             "patron_in_weapon": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "5bd70322209c4d00d7167b8f": {
@@ -4081,7 +4132,8 @@
             ],
             "patron_in_weapon": [
                 "5ba26835d4351e0035628ff5",
-                "5ba2678ad4351e44f824b344"
+                "5ba2678ad4351e44f824b344",
+                "5ba26844d4351e00334c9475"
             ]
         },
         "5fb64bc92b1b027b1f50bcf2": {
@@ -4178,7 +4230,8 @@
             ],
             "patron_in_weapon": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "57f4c844245977379d5c14d1": {
@@ -4192,7 +4245,9 @@
             "patron_in_weapon": [
                 "573718ba2459775a75491131",
                 "573719df2459775a626ccbc2",
-                "57371aab2459775a77142f22"
+                "57371aab2459775a77142f22",
+                "5737201124597760fc4431f1",
+                "573720e02459776143012541"
             ]
         },
         "5fc3f2d5900b1d5091531e57": {
@@ -4290,6 +4345,7 @@
             ],
             "patron_in_weapon": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -4459,6 +4515,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -4490,6 +4548,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -4508,6 +4568,8 @@
             ],
             "patron_in_weapon": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -4558,7 +4620,10 @@
             "patron_in_weapon": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "5abccb7dd8ce87001773e277": {
@@ -4584,7 +4649,9 @@
             "patron_in_weapon": [
                 "573718ba2459775a75491131",
                 "573719df2459775a626ccbc2",
-                "57371aab2459775a77142f22"
+                "57371aab2459775a77142f22",
+                "5737201124597760fc4431f1",
+                "573720e02459776143012541"
             ]
         },
         "6193a720f8ee7e52e42109ed": {
@@ -4621,7 +4688,8 @@
             ],
             "patron_in_weapon": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "5b3b713c5acfc4330140bd8d": {
@@ -4672,6 +4740,7 @@
             ],
             "patron_in_weapon": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -4700,7 +4769,8 @@
             "patron_in_weapon": [
                 "5cc80f53e4a949000e1ea4f8",
                 "5cc80f67e4a949035e43bbba",
-                "5cc80f38e4a949001152b560"
+                "5cc80f38e4a949001152b560",
+                "5cc80f8fe4a949033b0224a2"
             ]
         },
         "5e81c3cbac2bb513793cdc75": {
@@ -4746,7 +4816,8 @@
             ],
             "patron_in_weapon": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "5b1fa9b25acfc40018633c01": {
@@ -4783,6 +4854,7 @@
             ],
             "patron_in_weapon": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -5098,18 +5170,24 @@
         "57838f0b2459774a256959b2": {
             "cartridges": [
                 "5c0d688c86f77413ae3407b2",
+                "61962d879bb3d20b0946d385",
+                "57a0e5022459774d1673f889",
                 "5c0d668f86f7747ccb7f13b2"
             ]
         },
         "57838f9f2459774a150289a0": {
             "cartridges": [
                 "5c0d688c86f77413ae3407b2",
+                "61962d879bb3d20b0946d385",
+                "57a0e5022459774d1673f889",
                 "5c0d668f86f7747ccb7f13b2"
             ]
         },
         "5a9e81fba2750c00164f6b11": {
             "cartridges": [
                 "5c0d688c86f77413ae3407b2",
+                "61962d879bb3d20b0946d385",
+                "57a0e5022459774d1673f889",
                 "5c0d668f86f7747ccb7f13b2"
             ]
         },
@@ -5549,12 +5627,16 @@
         "5c503ad32e2216398b5aada2": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5c503ac82e221602b21d6e9a": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -5606,150 +5688,180 @@
         },
         "55d4887d4bdc2d962f8b4570": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "61840bedd92c473c77021635": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "61840d85568c120fdd2962a5": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "5c05413a0db834001c390617": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "5c6d450c2e221600114c997d": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "5c6d42cb2e2216000e69d7d1": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "59c1383d86f774290a37e0ca": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "5aaa5e60e5b5b000140293d6": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "5448c1d04bdc2dff2f8b4569": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "5aaa5dfee5b5b000140293d3": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "5d1340b3d7ad1a0b52682ed7": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "544a378f4bdc2d30388b4567": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "5d1340bdd7ad1a0e8d245aab": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "55802d5f4bdc2dac148b458e": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "5d1340cad7ad1a0b0b249869": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
@@ -5761,30 +5873,36 @@
         },
         "5c6592372e221600133e47d7": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "544a37c44bdc2d25388b4567": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
         },
         "5c6d46132e221601da357d56": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
                 "601949593ae8f707c4608daa",
+                "5fbe3ffdf8b6a877a729ea82",
                 "5fd20ff893a8961fc660a954",
                 "619636be6db0f2477964e710"
             ]
@@ -7219,70 +7337,100 @@
             "cartridges": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "564ca99c4bdc2d16268b4589": {
             "cartridges": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "55d480c04bdc2d1d4e8b456a": {
             "cartridges": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "5cbdaf89ae9215000e5b9c94": {
             "cartridges": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "55d481904bdc2d8c2f8b456a": {
             "cartridges": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "55d482194bdc2d1d4e8b456b": {
             "cartridges": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "55d4837c4bdc2d1d4e8b456c": {
             "cartridges": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "5aaa4194e5b5b055d06310a5": {
             "cartridges": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "5bed61680db834001d2c45ab": {
             "cartridges": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "5bed625c0db834001c062946": {
             "cartridges": [
                 "5c0d5e4486f77478390952fe",
                 "61962b617c6c7b169525f168",
-                "56dff026d2720bb8668b4567"
+                "56dfef82d2720bbd668b4567",
+                "56dff026d2720bb8668b4567",
+                "56dff061d2720bb5668b4567",
+                "56dff2ced2720bb4668b4567"
             ]
         },
         "615d8f5dd92c473c770212ef": {
@@ -7791,6 +7939,7 @@
         },
         "5c0548ae0db834001966a3c2": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
@@ -7799,6 +7948,7 @@
         },
         "5ac66c5d5acfc4001718d314": {
             "cartridges": [
+                "54527a984bdc2d4e668b4567",
                 "54527ac44bdc2d36668b4567",
                 "59e6906286f7746c9f75e847",
                 "59e690b686f7746c9f75e848",
@@ -8104,6 +8254,7 @@
         },
         "59e5d83b86f7745aed03d262": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8111,6 +8262,7 @@
         },
         "5a01c29586f77474660c694c": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8118,6 +8270,7 @@
         },
         "5ac66bea5acfc43b321d4aec": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8125,6 +8278,7 @@
         },
         "59d625f086f774661516605d": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8132,6 +8286,7 @@
         },
         "5b1fd4e35acfc40018633c39": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8139,6 +8294,7 @@
         },
         "5a0060fc86f7745793204432": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8146,6 +8302,7 @@
         },
         "59e5f5a486f7746c530b3ce2": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8153,6 +8310,7 @@
         },
         "5b1fb3e15acfc4001637f068": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8160,6 +8318,7 @@
         },
         "59d6272486f77466146386ff": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8167,6 +8326,7 @@
         },
         "5e21a3c67e40bd02257a008a": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8174,6 +8334,7 @@
         },
         "5cbdc23eae9215001136a407": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8181,6 +8342,7 @@
         },
         "5c6175362e221600133e3b94": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8188,6 +8350,7 @@
         },
         "59fafc5086f7740dbe19f6c3": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8195,6 +8358,7 @@
         },
         "59fafc9386f774067d462453": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8202,6 +8366,7 @@
         },
         "5cfe8010d7ad1a59283b14c6": {
             "cartridges": [
+                "59e655cb86f77411dc52a77b",
                 "5f0596629e22f464da6bbdd9",
                 "59e0d99486f7744a32234762",
                 "601aa3d2b2bcb34913271e6d"
@@ -8326,12 +8491,16 @@
         "618168dc8004cc50514c34fc": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "6183d53f1cb55961fa0fdcda": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -8670,36 +8839,48 @@
         "5b7bef1e5acfc43d82528402": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5b099ac65acfc400186331e1": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5b7bef5d5acfc43bca7067a3": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5b7c2d1d5acfc43d1028532a": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5b7d37845acfc400170e2f87": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5b7bef9c5acfc43d102852ec": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -9188,18 +9369,24 @@
         "5df8f535bb49d91fb446d6b0": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5df8f541c41b2312ea3335e3": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5a3501acc4a282000d72293a": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -9354,11 +9541,13 @@
         },
         "5caf1041ae92157c28402e3f": {
             "cartridges": [
+                "5cadf6ddae9215051e1c23b2",
                 "5cadf6eeae921500134b2799"
             ]
         },
         "5caf1109ae9215753c44119f": {
             "cartridges": [
+                "5cadf6ddae9215051e1c23b2",
                 "5cadf6eeae921500134b2799"
             ]
         },
@@ -9458,12 +9647,16 @@
         "617130016c780c1e710c9a24": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "617131a4568c120fdd29482d": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -10065,7 +10258,8 @@
         },
         "5fc23426900b1d5091531e15": {
             "cartridges": [
-                "5fc382a9d724d907e2077dab"
+                "5fc382a9d724d907e2077dab",
+                "5fc275cf85fd526b824a571a"
             ]
         },
         "5fc278107283c4046c581489": {
@@ -10400,18 +10594,24 @@
         "5aaf8a0be5b5b00015693243": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5addcce35acfc4001a5fc635": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5addccf45acfc400185c2989": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -11671,24 +11871,28 @@
         "5a7ad2e851dfba0016153692": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5a718b548dc32e000d46d262": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5a718da68dc32e000d46d264": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5a718f958dc32e00094b97e7": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -11788,24 +11992,28 @@
         "5c5db6742e2216000f1b2852": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5c5db6552e2216001026119d": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5894a05586f774094708ef75": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5c5db6652e221600113fba51": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -11905,19 +12113,22 @@
         "5ba264f6d4351e0034777d52": {
             "cartridges": [
                 "5ba26835d4351e0035628ff5",
-                "5ba2678ad4351e44f824b344"
+                "5ba2678ad4351e44f824b344",
+                "5ba26844d4351e00334c9475"
             ]
         },
         "5ba2657ed4351e0035628ff2": {
             "cartridges": [
                 "5ba26835d4351e0035628ff5",
-                "5ba2678ad4351e44f824b344"
+                "5ba2678ad4351e44f824b344",
+                "5ba26844d4351e00334c9475"
             ]
         },
         "5ba26586d4351e44f824b340": {
             "cartridges": [
                 "5ba26835d4351e0035628ff5",
-                "5ba2678ad4351e44f824b344"
+                "5ba2678ad4351e44f824b344",
+                "5ba26844d4351e00334c9475"
             ]
         },
         "5ba26acdd4351e003562908e": {
@@ -11928,24 +12139,28 @@
         "5de8e8dafd6b4e6e2276dc32": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5de8ea8ffd6b4e6e2276dc35": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5de8eaadbbaf010b10528a6d": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5de8eac42a78646d96665d91": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -12125,7 +12340,8 @@
             "cartridges": [
                 "5cc80f53e4a949000e1ea4f8",
                 "5cc80f67e4a949035e43bbba",
-                "5cc80f38e4a949001152b560"
+                "5cc80f38e4a949001152b560",
+                "5cc80f8fe4a949033b0224a2"
             ]
         },
         "5cc700b9e4a949000f0f0f25": {
@@ -12224,18 +12440,21 @@
         "5d2f213448f0355009199284": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5926c3b286f774640d189b6b": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
         "5a351711c4a282000b1521a4": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -12286,7 +12505,8 @@
         "5fc3e466187fea44d52eda90": {
             "cartridges": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "5fc3e4a27283c4046c5814ab": {
@@ -12353,13 +12573,15 @@
         "5fb651b52b1b027b1f50bcff": {
             "cartridges": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "5fb651dc85f90547f674b6f4": {
             "cartridges": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "5fb655b748c711690e3a8d5a": {
@@ -12558,6 +12780,8 @@
         "5888988e24597752fe43a6fa": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -12580,54 +12804,72 @@
         "5d25a6538abbc306c62e630d": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5d25a4a98abbc30b917421a4": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5d25a7b88abbc3054f3e60bc": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5ce69cbad7f00c00b61c5098": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5d25a6a48abbc306c62e6310": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5d25af8f8abbc3055079fec5": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5cf12a15d7f00c05464b293f": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5bfeaa0f0db834001b734927": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
         "5bfea7ad0db834001c38f1ee": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -12937,6 +13179,8 @@
         "5df25b6c0b92095fd441e4cf": {
             "cartridges": [
                 "5a6086ea4f39f99cd479502f",
+                "5a608bf24f39f98ffc77720e",
+                "58dd3ad986f77403051cba8f",
                 "5efb0c1bd79ff02a1f5e68d9"
             ]
         },
@@ -13192,7 +13436,9 @@
             "cartridges": [
                 "573718ba2459775a75491131",
                 "573719df2459775a626ccbc2",
-                "57371aab2459775a77142f22"
+                "57371aab2459775a77142f22",
+                "5737201124597760fc4431f1",
+                "573720e02459776143012541"
             ]
         },
         "6194efe07c6c7b169525f11b": {
@@ -13257,13 +13503,15 @@
         "6193d338de3cdf1d2614a6fc": {
             "cartridges": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "6193d3149fb0c665d5490e32": {
             "cartridges": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "619624b26db0f2477964e6b0": {
@@ -13321,6 +13569,7 @@
         "602286df23506e50807090c6": {
             "cartridges": [
                 "5efb0da7a29a85116f6ea05f",
+                "56d59d3ad2720bdb418b4577",
                 "5c925fa22e221601da359b7b"
             ]
         },
@@ -13364,7 +13613,8 @@
             "cartridges": [
                 "5cc80f53e4a949000e1ea4f8",
                 "5cc80f67e4a949035e43bbba",
-                "5cc80f38e4a949001152b560"
+                "5cc80f38e4a949001152b560",
+                "5cc80f8fe4a949033b0224a2"
             ]
         },
         "5f3e77f59103d430b93f94c1": {
@@ -13397,19 +13647,22 @@
         "5e81c4ca763d9f754677befa": {
             "cartridges": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "5f3e77b26cda304dcc634057": {
             "cartridges": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "5ef3448ab37dfd6af863525c": {
             "cartridges": [
                 "5e81f423763d9f754677bf2e",
-                "5efb0cabfb3e451d70735af5"
+                "5efb0cabfb3e451d70735af5",
+                "5efb0d4f4bc50b58e81710f3"
             ]
         },
         "5ef5d994dfbc9f3c660ded95": {
