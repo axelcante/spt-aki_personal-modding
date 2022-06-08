@@ -28,8 +28,8 @@ class RaidsModifications {
                 if (OtherModitication.IsThisIDaMod(areaData._id) === false) {
                     for (const i in areaData.stages) {
 
-                        if (areaData.stages[i].constructionTime > 0) {
-                            areaData.stages[i].constructionTime = 10;
+                        if (areaData.stages[i].constructionTime > 2400) {
+                            areaData.stages[i].constructionTime = 2400;
                         }
 
                     }
@@ -43,8 +43,8 @@ class RaidsModifications {
             for (const data in hideout.production) {
                 let productionData = hideout.production[data];
                 if (OtherModitication.IsThisIDaMod(productionData._id) === false) {
-                    if (productionData.continuous === false && productionData.productionTime >= 10) {
-                        productionData.productionTime = 10;
+                    if (productionData.continuous === false && productionData.productionTime > 900) {
+                        productionData.productionTime = 900;
                     }
                 }
             }
@@ -57,8 +57,8 @@ class RaidsModifications {
             for (const scav in hideout.scavcase) {
                 let caseData = hideout.scavcase[scav];
                 if (OtherModitication.IsThisIDaMod(caseData._id) === false) {
-                    if (caseData.ProductionTime >= 10) {
-                        caseData.ProductionTime = 10;
+                    if (caseData.ProductionTime > 1200) {
+                        caseData.ProductionTime = 1200;
                     }
                 }
             }

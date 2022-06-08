@@ -54,8 +54,8 @@
   },
   "hideout": {
     "ChangeFuelConsumptionRate": false,
-    "FastHideoutConstruction": false,
-    "FastHideoutProduction": false,
+    "FastHideoutConstruction": true,
+    "FastHideoutProduction": true,
     "FastScavCase": false,
     "ScavCasePriceReducer": false,
     "RemoveConstructionsRequirements": false
