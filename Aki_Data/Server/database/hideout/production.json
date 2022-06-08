@@ -904,7 +904,7 @@
       },
       {
         "templateId": "5d6fc78386f77449d825f9dc",
-        "count": 2,
+        "count": 1,
         "isFunctional": false,
         "type": "Item"
       },
@@ -4013,18 +4013,12 @@
     "requirements": [
       {
         "areaType": 10,
-        "requiredLevel": 2,
+        "requiredLevel": 1,
         "type": "Area"
       },
       {
-        "templateId": "57a0e5022459774d1673f889",
-        "count": 50,
-        "isFunctional": false,
-        "type": "Item"
-      },
-      {
         "templateId": "5656d7c34bdc2d9d198b4587",
-        "count": 100,
+        "count": 200,
         "isFunctional": false,
         "type": "Item"
       },
@@ -4039,7 +4033,7 @@
     "boosters": null,
     "endProduct": "5f0596629e22f464da6bbdd9",
     "continuous": false,
-    "count": 100,
+    "count": 200,
     "productionLimitCount": 0
   },
   {
