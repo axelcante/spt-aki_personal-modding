@@ -1,63 +1,37 @@
 [
   {
     "_id": "5d83822aade7391cc1066d61",
-    "ProductionTime": 8100,
+    "ProductionTime": 1800,
     "Requirements": [
       {
         "templateId": "5449016a4bdc2d6f028b456f",
-        "count": 95000,
+        "count": 110000,
         "isFunctional": false,
         "type": "Item"
       }
     ],
     "EndProducts": {
       "Common": {
-        "min": "0",
-        "max": "0"
+        "min": "1",
+        "max": "1"
       },
       "Rare": {
-        "min": "1",
+        "min": "2",
         "max": "3"
       },
       "Superrare": {
         "min": "1",
         "max": "2"
-      }
-    }
-  },
-  {
-    "_id": "5d78d563c3024e58357e0f84",
-    "ProductionTime": 2500,
-    "Requirements": [
-      {
-        "templateId": "5449016a4bdc2d6f028b456f",
-        "count": 2500,
-        "isFunctional": false,
-        "type": "Item"
-      }
-    ],
-    "EndProducts": {
-      "Common": {
-        "min": "1",
-        "max": "2"
-      },
-      "Rare": {
-        "min": "0",
-        "max": "1"
-      },
-      "Superrare": {
-        "min": "0",
-        "max": "0"
       }
     }
   },
   {
     "_id": "5d8381ecade7391cc1066d5e",
-    "ProductionTime": 7700,
+    "ProductionTime": 1800,
     "Requirements": [
       {
         "templateId": "5449016a4bdc2d6f028b456f",
-        "count": 15000,
+        "count": 55000,
         "isFunctional": false,
         "type": "Item"
       }
@@ -65,7 +39,7 @@
     "EndProducts": {
       "Common": {
         "min": "1",
-        "max": "1"
+        "max": "2"
       },
       "Rare": {
         "min": "1",
@@ -73,13 +47,13 @@
       },
       "Superrare": {
         "min": "0",
-        "max": "0"
+        "max": "1"
       }
     }
   },
   {
     "_id": "5dd129295a9ae32efe41a367",
-    "ProductionTime": 16800,
+    "ProductionTime": 1800,
     "Requirements": [
       {
         "templateId": "5d1b376e86f774252519444e",
@@ -95,7 +69,7 @@
       },
       "Rare": {
         "min": "1",
-        "max": "1"
+        "max": "3"
       },
       "Superrare": {
         "min": "3",
@@ -105,7 +79,7 @@
   },
   {
     "_id": "5e074e5e2108b14e1c62f2a7",
-    "ProductionTime": 19200,
+    "ProductionTime": 1800,
     "Requirements": [
       {
         "templateId": "5c12613b86f7743bbe2c3f76",
@@ -121,11 +95,11 @@
       },
       "Superrare": {
         "min": "2",
-        "max": "3"
+        "max": "4"
       },
       "Common": {
-        "min": "0",
-        "max": "0"
+        "min": "1",
+        "max": "1"
       }
     }
   }

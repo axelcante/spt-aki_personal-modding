@@ -3714,13 +3714,6 @@
           "Count": 1,
           "RequiredSlot": "FirstPrimaryWeapon",
           "RequirementTip": "EXFIL_NEED_ITEM {0}"
-        },
-        {
-          "Requirement": "Empty",
-          "Id": "",
-          "Count": 0,
-          "RequiredSlot": "ArmorVest",
-          "RequirementTip": "EXFIL_ARMOR_TIP"
         }
       ]
     },
