@@ -61,7 +61,7 @@
     "RemoveConstructionsRequirements": false
   },
   "player": {
-    "RemoveScavTimer": false,
+    "RemoveScavTimer": true,
     "ChangeSkillProgressionMultiplier": 7,
     "ChangeWeaponSkillMultiplier": 10,
     "DisableSkillFatigue": false,

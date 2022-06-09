@@ -11992,20 +11992,6 @@
           "target": "58330581ace78e27b8b10cee"
         },
         {
-          "value": "-0.01",
-          "id": "60c8afc91f21c1669a48c327",
-          "type": "TraderStanding",
-          "index": 1,
-          "target": "54cb50c76803fa8b248b4571"
-        },
-        {
-          "value": "-0.01",
-          "id": "60c8afce9339363e8f0c6ada",
-          "type": "TraderStanding",
-          "index": 2,
-          "target": "54cb57776803fa99248b456e"
-        },
-        {
           "value": "70000",
           "id": "60cb59d2f09d61072d6cf22a",
           "type": "Item",
