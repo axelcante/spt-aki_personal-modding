@@ -8,6 +8,7 @@ const modConfig = require("../config/config.json")
 const modName = `${pkg.author}-${pkg.name}`
 const locations = DatabaseServer.tables.locations
 const bots = DatabaseServer.tables.bots
+const fs = require('fs')
 
 class SpawnRework {
     static onLoadMod() {
@@ -54,6 +55,10 @@ class SpawnRework {
     }
 
     static GenerateMapSpawns(patternConfig, script_file, maps) {
+        
+        // Clear intel.txt here!
+        fs.writeFileSync('intel.txt', "")
+
         let behaviorRole = patternConfig.spawns.pmc_behavior_role.toLowerCase()
         if (!bots.types[behaviorRole]) {
             Logger.error(`${modName} - PMC Behavior Role "${patternConfig.spawns.pmc_behavior_role}" doesn't exsist, changing to "pmcBot"...`)

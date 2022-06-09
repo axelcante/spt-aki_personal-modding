@@ -1,4 +1,44 @@
+const fs = require('fs')
+
 module.exports = {
+	write_intel:
+	function write_intel(data, new_map){
+		if (data != null || data != undefined) {
+			let stringData = data + '\n'
+			if (new_map != undefined) {
+				fs.appendFileSync('intel.txt', "-----------------------------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------\n                               " + stringData + "-----------------------------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------\n")
+			} else {
+				fs.appendFileSync('intel.txt', stringData)
+			}
+		}
+	},
+
+	translate_map_name:
+	function translate_map_name(name){
+		switch (name){
+			case "bigmap":
+				return "Industrial Customs"
+			case "interchange": 
+				return "ULTRA Shopping Mall"
+			case "shoreline":
+				return "Azure Coast Resort Area"
+			case "rezervbase":
+				return "Federal State Reserve Agency Military Base"
+			case "factory4_day":
+				return "Chemical Plant No. 16 0800"
+			case "factory4_night":
+				return "Chemical Plant No.16 2300"
+			case "laboratory":
+				return "TerraGroup Labs"
+			case "woods":
+				return "Priozersk Natural Reserve"
+			case "lighthouse":
+				return "Cape Dalniy"
+			default:
+				return name
+		}
+	},
+
 	generate_bot: 
     function generate_bot(map_configs, map_base, map_name){
 		// Set map's rules, configs
@@ -8,6 +48,8 @@ module.exports = {
 
 		Logger.log(``)
 		Logger.info(`${map_name} [${map_configs.map_rules}] @ Generating Bots (MaxBotPerZone: ${map_configs.max_bot_per_zone})...`, "white", "yellow")
+		let translated_map_name = this.translate_map_name(map_name)
+		this.write_intel(`${translated_map_name}` + " ", true)
 		
         //Numbers
         let chance, escort_amount, current_wave, spawn_time, wave_number, boss_count, spawn_index, escape_time_limit, spawn_count
@@ -65,8 +107,10 @@ module.exports = {
         //Boss spawn
         if (map_configs.has_boss) {
 			if (map_configs.boss_settings !== undefined && map_configs.boss_settings.length > 0 && map_configs.max_boss > 0) {
-				if (map_configs.show_generated_bots != "disable")
+				if (map_configs.show_generated_bots != "disable") {
 					Logger.log(`------------------------- Boss -------------------------`, "white", "black")
+					this.write_intel(`------------------------- Boss -------------------------` + '\n')
+				}
 
 				if (map_configs.show_generated_bots == "secret")
 					Logger.log(`[¿] Secret`, "red", "white")
@@ -516,10 +560,14 @@ module.exports = {
 								else
 									spawn_time += "s"
 
-								if (escort_amount === 0)
+								if (escort_amount === 0) {
 									Logger.log(`[${boss_count}] ${(isRandom === true) ? "(Random) " + name : name} (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "red", "white")
-								else
+									this.write_intel(`[${boss_count}] ${(isRandom === true) ? "(Random) " + name : name} (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
+								}
+								else {
 									Logger.log(`[${boss_count}] ${(isRandom === true) ? "(Random) " + name : name} (Spawn Time: ${spawn_time}) with ${escort_amount} supporters at [${spawn_location}]`, "red", "white")
+									this.write_intel(`[${boss_count}] ${(isRandom === true) ? "(Random) " + name : name} (Spawn Time: ${spawn_time}) with ${escort_amount} supporters at [${spawn_location}]` + '\n')
+								}
 								boss_count = last_spawn_location
 							}
 
@@ -553,8 +601,10 @@ module.exports = {
 					}
 				}
 
-				if (spawn_index === 0 && map_configs.show_generated_bots == "all")
+				if (spawn_index === 0 && map_configs.show_generated_bots == "all") {
 					Logger.log(`[x] None`, "red", "white")
+					this.write_intel(`[x] None` + '\n')
+				}
 			} else Logger.error(`${map_name} has no boss settings or max boss (${map_configs.max_boss}) is zero to spawn even [has_boss] is true`)
         }
 		boss_count = spawn_index
@@ -563,8 +613,10 @@ module.exports = {
         // PMC are always set to be impossible difficulty
 		spawn_index = 0
         if (pmc_waves !== undefined && pmc_waves.wave_total > 0){
-			if (map_configs.show_generated_bots != "disable")
+			if (map_configs.show_generated_bots != "disable") {
 				Logger.log(`------------------------- PMC --------------------------`, "white", "black")
+				this.write_intel(`------------------------- PMC --------------------------` + '\n')
+			}
 
 			spawn_location_array = helpfunctions.generate_info_array(pmc_waves.spawn_locations, (pmc_waves.spawn_location_type == "evenly")?"without_chance":"with_chance")
 			if (spawn_location_array.length > 0) {
@@ -726,8 +778,14 @@ module.exports = {
 							else
 								spawn_time += "s"
 
-							if (escort_amount > 1) Logger.log(`[${++spawn_index}] ${escort_amount} @ ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "yellow", "blue")
-							else Logger.log(`[${++spawn_index}] ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "yellow", "blue")
+							if (escort_amount > 1) {
+								Logger.log(`[${++spawn_index}] ${escort_amount} @ ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "yellow", "blue")
+								this.write_intel(`[${++spawn_index}] ${escort_amount} @ ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
+							}
+							else {
+								Logger.log(`[${++spawn_index}] ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "yellow", "blue")
+								this.write_intel(`[${++spawn_index}] ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
+							}
 						}
 						else {
 							let numString
@@ -750,8 +808,10 @@ module.exports = {
         // Scav wave spawn
         // Map will have x scav waves spawned at start, the rest of scav waves will spawn starting from 5 min with random location and time
         if (scav_waves !== undefined && scav_waves.wave_total > 0){
-			if (map_configs.show_generated_bots != "disable")
+			if (map_configs.show_generated_bots != "disable") {
 				Logger.log(`------------------------- Scav -------------------------`, "white", "black")
+				this.write_intel(`------------------------- Scav -------------------------` + '\n')
+			}
 
 			spawn_location_array = helpfunctions.generate_info_array(scav_waves.spawn_locations, (scav_waves.spawn_location_type == "evenly")?"without_chance":"with_chance")
 			if (spawn_location_array.length > 0) {
@@ -875,6 +935,7 @@ module.exports = {
 							spawn_time += "s"
 
 						Logger.log(`[${++spawn_index}] ${escort_amount} @ Scav (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "white", "black")
+						this.write_intel(`[${++spawn_index}] ${escort_amount} @ Scav (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
 					}
 					else if (map_configs.show_generated_bots == "secret") {
 						let numString
@@ -898,8 +959,10 @@ module.exports = {
         //Sniper waves all spawn at start of raid at different locations. Sniper wave will have maximum of 1 scav.
         //This is basically the same as scav wave spawn. Just separating them in case I want to modify sniper scavs in future
         if (sniper_waves !== undefined && sniper_waves.wave_total > 0){
-			if (map_configs.show_generated_bots != "disable")
+			if (map_configs.show_generated_bots != "disable") {
 				Logger.log(`---------------------- Sniper Scav ---------------------`, "white", "black")
+				this.write_intel(`---------------------- Sniper Scav ---------------------` + '\n')
+			}
 
 			spawn_location_array = helpfunctions.generate_info_array(sniper_waves.spawn_locations, (sniper_waves.spawn_location_type == "evenly")?"without_chance":"with_chance")
 			if (spawn_location_array.length > 0) {
@@ -1023,6 +1086,7 @@ module.exports = {
 							spawn_time += "s"
 
 						Logger.log(`[${++spawn_index}] ${escort_amount} @ Sniper Scav (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "white", "black")
+						this.write_intel(`[${++spawn_index}] ${escort_amount} @ Sniper Scav (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
 					}
 					else if (map_configs.show_generated_bots == "secret") {
 						let numString
@@ -1045,8 +1109,10 @@ module.exports = {
         // Raider wave spawn
         // Raider only spawn at certain type zones(most contested zones). Raider spawn as followerGluharAssault(very agressive raider type).
         if (raider_waves !== undefined && raider_waves.wave_total > 0){
-			if (map_configs.show_generated_bots != "disable")
+			if (map_configs.show_generated_bots != "disable") {
 				Logger.log(`------------------------ Raider ------------------------`, "white", "black")
+				this.write_intel(`------------------------ Raider ------------------------` + '\n')
+			}
 
 			spawn_location_array = helpfunctions.generate_info_array(raider_waves.spawn_locations, (raider_waves.spawn_location_type == "evenly")?"without_chance":"with_chance")
 			if (spawn_location_array.length > 0) {
@@ -1193,6 +1259,7 @@ module.exports = {
 							spawn_time += "s"
 
 						Logger.log(`[${++spawn_index}] ${escort_amount} @ ${role} (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "white", "magenta")
+						this.write_intel(`[${++spawn_index}] ${escort_amount} @ ${role} (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
 					}
 					else if (map_configs.show_generated_bots == "secret") {
 						let numString
