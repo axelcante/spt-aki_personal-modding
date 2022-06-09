@@ -439,7 +439,7 @@
         "requirements": [
           {
             "areaType": 1,
-            "requiredLevel": 2,
+            "requiredLevel": 1,
             "type": "Area"
           },
           {
@@ -1975,19 +1975,19 @@
           },
           {
             "templateId": "5734758f24597738025ee253",
-            "count": 5,
+            "count": 4,
             "isFunctional": false,
             "type": "Item"
           },
           {
             "templateId": "59faf7ca86f7740dbe19f6c2",
-            "count": 3,
+            "count": 2,
             "isFunctional": false,
             "type": "Item"
           },
           {
             "templateId": "5d1b376e86f774252519444e",
-            "count": 2,
+            "count": 1,
             "isFunctional": false,
             "type": "Item"
           },

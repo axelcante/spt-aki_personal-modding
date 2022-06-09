@@ -62,8 +62,8 @@
   },
   "player": {
     "RemoveScavTimer": false,
-    "ChangeSkillProgressionMultiplier": 5,
-    "ChangeWeaponSkillMultiplier": 5,
+    "ChangeSkillProgressionMultiplier": 7,
+    "ChangeWeaponSkillMultiplier": 10,
     "DisableSkillFatigue": false,
     "SkillMinEffectiveness": 0.2,
     "SkillFatiguePerPoint": 0.2,
