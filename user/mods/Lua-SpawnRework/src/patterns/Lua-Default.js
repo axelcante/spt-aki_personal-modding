@@ -15,7 +15,7 @@ module.exports = {
 
 	translate_map_name:
 	function translate_map_name(name){
-		switch (name){
+		switch (name) {
 			case "bigmap":
 				return "Industrial Customs"
 			case "interchange": 
@@ -34,6 +34,38 @@ module.exports = {
 				return "Priozersk Natural Reserve"
 			case "lighthouse":
 				return "Cape Dalniy"
+			default:
+				return name
+		}
+	},
+
+	translate_enemy_activity:
+	function translate_enemy_activity(name){
+		switch (name) {
+			case "sectantPriest":
+				return "Cult Priest"
+			case "bossBully":
+				return "Rashala"
+			case "bossSanitar":
+				return "Sanitar"
+			case "bossKilla":
+				return "Killa"
+			case "bossGluhar":
+				return "Gluhar"
+			case "bossTagilla":
+				return "Tagilla"
+			case "bossKojaniy":
+				return "Shturman"
+			case "assaultGroup":
+				return "Military activity (USEC or BEAR)"
+			case "Scav":
+				return "Scavenger civillians"
+			case "Sniper Scav":
+				return "Sniper"
+			case "pmcBot":
+				return "Defectors"
+			case "exUsec":
+				return "Rogue USEC activity"
 			default:
 				return name
 		}
@@ -559,14 +591,15 @@ module.exports = {
 									spawn_time = "Instant"
 								else
 									spawn_time += "s"
-
+								
+								let translated_name = this.translate_enemy_activity(name)
 								if (escort_amount === 0) {
 									Logger.log(`[${boss_count}] ${(isRandom === true) ? "(Random) " + name : name} (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "red", "white")
-									this.write_intel(`[${boss_count}] ${(isRandom === true) ? "(Random) " + name : name} (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
+									this.write_intel(`[B] ${translated_name} at [${spawn_location}]` + '\n')
 								}
 								else {
-									Logger.log(`[${boss_count}] ${(isRandom === true) ? "(Random) " + name : name} (Spawn Time: ${spawn_time}) with ${escort_amount} supporters at [${spawn_location}]`, "red", "white")
-									this.write_intel(`[${boss_count}] ${(isRandom === true) ? "(Random) " + name : name} (Spawn Time: ${spawn_time}) with ${escort_amount} supporters at [${spawn_location}]` + '\n')
+									Logger.log(`[*] ${(isRandom === true) ? "(Random) " + translated_map_name : name} (Spawn Time: ${spawn_time}) with ${escort_amount} supporters at [${spawn_location}]`, "red", "white")
+									this.write_intel(`[Bo] ${translated_name} with guards at [${spawn_location}]` + '\n')
 								}
 								boss_count = last_spawn_location
 							}
@@ -765,6 +798,7 @@ module.exports = {
 
 					if (map_configs.show_generated_bots != "disable") {
 						let factionString = "USEC"
+						let translated_name = this.translate_enemy_activity(name)
 						if (BotConfig.pmc.isUsec < 1)
 							factionString = "BEAR"
 						else if (BotConfig.pmc.isUsec > 99)
@@ -780,11 +814,11 @@ module.exports = {
 
 							if (escort_amount > 1) {
 								Logger.log(`[${++spawn_index}] ${escort_amount} @ ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "yellow", "blue")
-								this.write_intel(`[${++spawn_index}] ${escort_amount} @ ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
+								this.write_intel(`[PMC] ${translated_name} at [${spawn_location}]` + '\n')
 							}
 							else {
 								Logger.log(`[${++spawn_index}] ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "yellow", "blue")
-								this.write_intel(`[${++spawn_index}] ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
+								this.write_intel(`[PMC] ${translated_name} at [${spawn_location}]` + '\n')
 							}
 						}
 						else {
@@ -935,7 +969,7 @@ module.exports = {
 							spawn_time += "s"
 
 						Logger.log(`[${++spawn_index}] ${escort_amount} @ Scav (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "white", "black")
-						this.write_intel(`[${++spawn_index}] ${escort_amount} @ Scav (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
+						this.write_intel(`[Civ] ${this.translate_enemy_activity("Scav")} at [${spawn_location}]` + '\n')
 					}
 					else if (map_configs.show_generated_bots == "secret") {
 						let numString
@@ -1086,7 +1120,7 @@ module.exports = {
 							spawn_time += "s"
 
 						Logger.log(`[${++spawn_index}] ${escort_amount} @ Sniper Scav (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "white", "black")
-						this.write_intel(`[${++spawn_index}] ${escort_amount} @ Sniper Scav (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
+						this.write_intel(`[Sn] ${this.translate_enemy_activity("Sniper Scav")} at [${spawn_location}]` + '\n')
 					}
 					else if (map_configs.show_generated_bots == "secret") {
 						let numString
@@ -1259,7 +1293,7 @@ module.exports = {
 							spawn_time += "s"
 
 						Logger.log(`[${++spawn_index}] ${escort_amount} @ ${role} (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "white", "magenta")
-						this.write_intel(`[${++spawn_index}] ${escort_amount} @ ${role} (Spawn Time: ${spawn_time}) at [${spawn_location}]` + '\n')
+						this.write_intel(`[De] ${this.translate_enemy_activity(role)} at [${spawn_location}]` + '\n')
 					}
 					else if (map_configs.show_generated_bots == "secret") {
 						let numString
