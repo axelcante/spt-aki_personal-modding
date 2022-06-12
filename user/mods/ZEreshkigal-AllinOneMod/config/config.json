@@ -29,11 +29,11 @@
       "Other": 1
     },
     "Weapons malfunctions": {
-      "Overheat": true,
-      "Jam": true,
-      "Slide": true,
-      "Misfire": true,
-      "Feed": true
+      "Overheat": false,
+      "Jam": false,
+      "Slide": false,
+      "Misfire": false,
+      "Feed": false
     },
     "Weapons durabilities": {
       "Minimum spawn durability": 25,
