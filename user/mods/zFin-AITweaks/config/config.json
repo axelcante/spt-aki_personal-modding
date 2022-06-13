@@ -47,13 +47,13 @@
         "Note": "These are the MAIN values for adjusting difficulty. If you want an easier or harder time overall, increase or decrease these. For details on these or any other entries, please check the readme."
     },
     "overallDifficultyMultipliers": {
-        "aiAimSpeedMult": 1.6,
-        "aiShotSpreadMult": 1.3,
-        "aiVisionSpeedMult": 1.3,
+        "aiAimSpeedMult": 2,
+        "aiShotSpreadMult": 1,
+        "aiVisionSpeedMult": 2,
         "aiAccuracyMult": 2,
-        "sniperBotAccuracyMult": 1.4,
-        "visibleDistanceMult": 0.7,
-        "semiAutoFireRateMult": 0.7,
+        "sniperBotAccuracyMult": 1.8,
+        "visibleDistanceMult": 0.5,
+        "semiAutoFireRateMult": 0.5,
         "aiRecoilMult": 1.5,
         "aiHearingMult": 0.3,
         "visibleAngleMult": 1,
@@ -351,8 +351,8 @@
                 4
             ],
             "backpackSizeMin_Max": [
-                -1,
-                24
+                12,
+                40
             ],
             "maxTacticalDevices": 1,
             "maxPrimaryOptics": 1,
@@ -374,7 +374,10 @@
             "removeVanillaBotArmor": true,
             "botsWillNotSpawnWithTheseThings": [
                 "5d52cc5ba4b9367408500062",
-                "5cdeb229d7f00c000e7ce174"
+                "5cdeb229d7f00c000e7ce174",
+                "57e26fc7245977162a14b800",
+                "590c5a7286f7747884343aea",
+                "572b7fa524597762b747ce82"
             ]
         },
         "miscChanges": {
