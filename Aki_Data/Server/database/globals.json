@@ -3441,7 +3441,7 @@
     "RagFair": {
       "enabled": true,
       "priceStabilizerEnabled": false,
-      "includePveTraderSales": false,
+      "includePveTraderSales": true,
       "priceStabilizerStartIntervalInHours": 1,
       "minUserLevel": 15,
       "communityTax": 4,
@@ -3550,7 +3550,7 @@
       "balancerUserItemSaleCooldown": 1,
       "youSellOfferMaxStorageTimeInHour": 72,
       "yourOfferDidNotSellMaxStorageTimeInHour": 72,
-      "isOnlyFoundInRaidAllowed": true,
+      "isOnlyFoundInRaidAllowed": false,
       "sellInOnePiece": 300
     },
     "handbook": {
@@ -3720,15 +3720,15 @@
     "RestrictionsInRaid": [
       {
         "TemplateId": "5449016a4bdc2d6f028b456f",
-        "Value": 280000
+        "Value": 580000
       },
       {
         "TemplateId": "5696686a4bdc2da3298b456a",
-        "Value": 4000
+        "Value": 40000
       },
       {
         "TemplateId": "569668774bdc2da2298b4568",
-        "Value": 4000
+        "Value": 40000
       },
       {
         "TemplateId": "59faff1d86f7746c51718c9c",

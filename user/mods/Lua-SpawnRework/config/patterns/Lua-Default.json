@@ -62,13 +62,11 @@
 					"supports":null
 				},
 				{
-					"name":"bossKilla",
-					"chance":35,
+					"name":"bossGluhar",
+					"chance":25,
 					"difficulty":"normal, hard",
-					"escort_type":"followerBully",
+					"escort_type":"followerGluharAssault",
 					"escort_difficulty":"normal, hard",
-					"escort_amount_min":2,
-					"escort_amount_max":2,
 					"wave_total":1,
 					"wave_spawn_time_for_each_min":0,
 					"wave_spawn_time_for_each_max":0,
@@ -78,7 +76,24 @@
 					},
 					"trigger_id":"",
 					"trigger_name":"",
-					"supports":null
+					"supports":[
+						{
+							"BossEscortType":"followerGluharAssault",
+							"BossEscortDifficult":[
+								"normal"
+							],
+							"BossEscortAmount_min":1,
+							"BossEscortAmount_max":1
+						},
+						{
+							"BossEscortType":"followerGluharScout",
+							"BossEscortDifficult":[
+								"normal"
+							],
+							"BossEscortAmount_min":1,
+							"BossEscortAmount_max":1
+						}
+					]
 				},
 				{
 					"name":"sectantPriest",
@@ -102,13 +117,13 @@
 			],
 			"wave_settings":{
 				"scav_waves":{
-					"wave_total":7,
+					"wave_total":6,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":7,
+					"insta_spawn_waves":6,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 60,
-					"spawn_time_delay_for_each_max": 180,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -133,13 +148,13 @@
 					}
 				},
 				"sniper_waves":{
-					"wave_total":2,
+					"wave_total":1,
 					"slot_min":1,
 					"slot_max":1,
-					"insta_spawn_waves":2,
-					"spawn_time_delay_after_insta_wave": 180,
-					"spawn_time_delay_for_each_min": 60,
-					"spawn_time_delay_for_each_max": 300,
+					"insta_spawn_waves":1,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "evenly",
 					"difficulty":{
@@ -162,12 +177,12 @@
 					"raider_high_role_chance":0,
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
 					"wave_total":0,
-					"slot_min":3,
-					"slot_max":4,
+					"slot_min":2,
+					"slot_max":2,
 					"insta_spawn_waves":0,
-					"spawn_time_delay_after_insta_wave": 120,
-					"spawn_time_delay_for_each_min": 180,
-					"spawn_time_delay_for_each_max": 420,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -186,14 +201,14 @@
 				},
 				"pmc_waves":{
 					"cursedAssault_chance":0,
-					"wave_total":5,
+					"wave_total":4,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":5,
-					"spawn_scav_raider_location_chance": 22,
-					"spawn_time_delay_after_insta_wave": 180,
-					"spawn_time_delay_for_each_min": 60,
-					"spawn_time_delay_for_each_max": 300,
+					"insta_spawn_waves":4,
+					"spawn_scav_raider_location_chance": 0,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -205,15 +220,14 @@
 					"spawn_locations":{
 						"ZoneDormitory":3,
 						"ZoneGasStation":2,
-						"ZoneWade":2,
 						"ZoneScavBase":2,
-						"ZoneCrossRoad":2,
+						"ZoneCrossRoad":1,
 						"ZoneCustoms":2,
-						"ZoneBrige":2,
-						"ZoneOldAZS":2,
-						"ZoneBlockPost":2,
-						"ZoneFactoryCenter":2,
-						"ZoneFactorySide":2,
+						"ZoneBrige":1,
+						"ZoneOldAZS":1,
+						"ZoneBlockPost":1,
+						"ZoneFactoryCenter":1,
+						"ZoneFactorySide":1,
 						"ZoneTankSquare":2
 					}
 				}
@@ -285,8 +299,8 @@
 					"slot_max":3,
 					"insta_spawn_waves":6,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 180,
-					"spawn_time_delay_for_each_max": 360,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -319,8 +333,8 @@
 					"slot_max":1,
 					"insta_spawn_waves":2,
 					"spawn_time_delay_after_insta_wave": 300,
-					"spawn_time_delay_for_each_min": 240,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "evenly",
 					"difficulty":{
@@ -344,9 +358,9 @@
 					"slot_min":3,
 					"slot_max":4,
 					"insta_spawn_waves":1,
-					"spawn_time_delay_after_insta_wave": 120,
-					"spawn_time_delay_for_each_min": 480,
-					"spawn_time_delay_for_each_max": 720,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -372,9 +386,9 @@
 					"slot_max":4,
 					"insta_spawn_waves":4,
 					"spawn_scav_raider_location_chance": 22,
-					"spawn_time_delay_after_insta_wave": 180,
-					"spawn_time_delay_for_each_min": 300,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -464,8 +478,8 @@
 					"slot_max":3,
 					"insta_spawn_waves":6,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 180,
-					"spawn_time_delay_for_each_max": 360,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -496,9 +510,9 @@
 					"slot_min":2,
 					"slot_max":3,
 					"insta_spawn_waves":1,
-					"spawn_time_delay_after_insta_wave": 120,
-					"spawn_time_delay_for_each_min": 480,
-					"spawn_time_delay_for_each_max": 720,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -524,9 +538,9 @@
 					"slot_max":3,
 					"insta_spawn_waves":5,
 					"spawn_scav_raider_location_chance": 22,
-					"spawn_time_delay_after_insta_wave": 180,
-					"spawn_time_delay_for_each_min": 300,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -593,7 +607,7 @@
 								"normal"
 							],
 							"BossEscortAmount_min":1,
-							"BossEscortAmount_max":1
+							"BossEscortAmount_max":2
 						},
 						{
 							"BossEscortType":"followerGluharSecurity",
@@ -609,7 +623,7 @@
 								"normal, hard"
 							],
 							"BossEscortAmount_min":1,
-							"BossEscortAmount_max":2
+							"BossEscortAmount_max":1
 						}
 					]
 				}
@@ -621,8 +635,8 @@
 					"slot_max":3,
 					"insta_spawn_waves":5,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 180,
-					"spawn_time_delay_for_each_max": 360,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -649,9 +663,9 @@
 					"slot_min":2,
 					"slot_max":4,
 					"insta_spawn_waves":2,
-					"spawn_time_delay_after_insta_wave": 120,
-					"spawn_time_delay_for_each_min": 480,
-					"spawn_time_delay_for_each_max": 720,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -676,9 +690,9 @@
 					"slot_max":4,
 					"insta_spawn_waves":4,
 					"spawn_scav_raider_location_chance": 22,
-					"spawn_time_delay_after_insta_wave": 180,
-					"spawn_time_delay_for_each_min": 300,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -795,8 +809,8 @@
 					"slot_max":3,
 					"insta_spawn_waves":4,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 180,
-					"spawn_time_delay_for_each_max": 270,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "together",
 					"difficulty":{
@@ -817,8 +831,8 @@
 					"insta_spawn_waves":3,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 240,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "together",
 					"difficulty":{
@@ -911,8 +925,8 @@
 					"slot_max":3,
 					"insta_spawn_waves":3,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 180,
-					"spawn_time_delay_for_each_max": 270,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "together",
 					"difficulty":{
@@ -933,8 +947,8 @@
 					"insta_spawn_waves":3,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 240,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "together",
 					"difficulty":{
@@ -1091,8 +1105,8 @@
 					"slot_max":3,
 					"insta_spawn_waves":3,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 180,
-					"spawn_time_delay_for_each_max": 270,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "together",
 					"difficulty":{
@@ -1117,9 +1131,9 @@
 					"slot_min":3,
 					"slot_max":4,
 					"insta_spawn_waves":2,
-					"spawn_time_delay_after_insta_wave": 120,
-					"spawn_time_delay_for_each_min": 300,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -1142,9 +1156,9 @@
 					"slot_max":5,
 					"insta_spawn_waves":3,
 					"spawn_scav_raider_location_chance": 22,
-					"spawn_time_delay_after_insta_wave": 180,
-					"spawn_time_delay_for_each_min": 300,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -1396,8 +1410,8 @@
 					"slot_max":3,
 					"insta_spawn_waves":4,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 180,
-					"spawn_time_delay_for_each_max": 360,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -1424,8 +1438,8 @@
 					"slot_max":1,
 					"insta_spawn_waves":1,
 					"spawn_time_delay_after_insta_wave": 300,
-					"spawn_time_delay_for_each_min": 240,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "evenly",
 					"difficulty":{
@@ -1447,9 +1461,9 @@
 					"slot_min":2,
 					"slot_max":2,
 					"insta_spawn_waves":1,
-					"spawn_time_delay_after_insta_wave": 120,
-					"spawn_time_delay_for_each_min": 480,
-					"spawn_time_delay_for_each_max": 720,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -1477,9 +1491,9 @@
 					"slot_max":3,
 					"insta_spawn_waves":4,
 					"spawn_scav_raider_location_chance": 22,
-					"spawn_time_delay_after_insta_wave": 180,
-					"spawn_time_delay_for_each_min": 300,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -1553,8 +1567,8 @@
 					"slot_max":3,
 					"insta_spawn_waves":4,
 					"spawn_time_delay_after_insta_wave": 0,
-					"spawn_time_delay_for_each_min": 180,
-					"spawn_time_delay_for_each_max": 360,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -1580,8 +1594,8 @@
 					"slot_max":1,
 					"insta_spawn_waves":1,
 					"spawn_time_delay_after_insta_wave": 300,
-					"spawn_time_delay_for_each_min": 240,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "evenly",
 					"difficulty":{
@@ -1608,9 +1622,9 @@
 					"slot_min":2,
 					"slot_max":2,
 					"insta_spawn_waves":1,
-					"spawn_time_delay_after_insta_wave": 120,
-					"spawn_time_delay_for_each_min": 480,
-					"spawn_time_delay_for_each_max": 720,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{
@@ -1637,9 +1651,9 @@
 					"slot_max":4,
 					"insta_spawn_waves":3,
 					"spawn_scav_raider_location_chance": 22,
-					"spawn_time_delay_after_insta_wave": 180,
-					"spawn_time_delay_for_each_min": 300,
-					"spawn_time_delay_for_each_max": 480,
+					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_for_each_min": 0,
+					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
 					"spawn_location_type": "random",
 					"difficulty":{

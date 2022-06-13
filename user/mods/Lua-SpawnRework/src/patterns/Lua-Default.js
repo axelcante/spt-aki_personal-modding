@@ -814,11 +814,11 @@ module.exports = {
 
 							if (escort_amount > 1) {
 								Logger.log(`[${++spawn_index}] ${escort_amount} @ ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "yellow", "blue")
-								this.write_intel(`[PMC] ${translated_name} at [${spawn_location}]` + '\n')
+								this.write_intel(`[PMC] ${escort_amount} ${translated_name} at [${spawn_location}]` + '\n')
 							}
 							else {
 								Logger.log(`[${++spawn_index}] ${name} [${factionString}] (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "yellow", "blue")
-								this.write_intel(`[PMC] ${translated_name} at [${spawn_location}]` + '\n')
+								this.write_intel(`[PMC] ${escort_amount} ${translated_name} at [${spawn_location}]` + '\n')
 							}
 						}
 						else {
@@ -969,7 +969,7 @@ module.exports = {
 							spawn_time += "s"
 
 						Logger.log(`[${++spawn_index}] ${escort_amount} @ Scav (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "white", "black")
-						this.write_intel(`[Civ] ${this.translate_enemy_activity("Scav")} at [${spawn_location}]` + '\n')
+						this.write_intel(`[Civ] ${escort_amount} ${this.translate_enemy_activity("Scav")} at [${spawn_location}]` + '\n')
 					}
 					else if (map_configs.show_generated_bots == "secret") {
 						let numString
@@ -1293,7 +1293,7 @@ module.exports = {
 							spawn_time += "s"
 
 						Logger.log(`[${++spawn_index}] ${escort_amount} @ ${role} (Spawn Time: ${spawn_time}) at [${spawn_location}]`, "white", "magenta")
-						this.write_intel(`[De] ${this.translate_enemy_activity(role)} at [${spawn_location}]` + '\n')
+						this.write_intel(`[De] ${escort_amount} ${this.translate_enemy_activity(role)} at [${spawn_location}]` + '\n')
 					}
 					else if (map_configs.show_generated_bots == "secret") {
 						let numString
