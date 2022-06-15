@@ -125,7 +125,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":3,
 						"normal":5,
@@ -184,7 +184,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":6,
@@ -210,7 +210,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":6,
@@ -302,7 +302,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":3,
 						"normal":6,
@@ -362,7 +362,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":0,
 						"normal":6,
@@ -390,7 +390,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":6,
@@ -481,7 +481,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":5,
@@ -514,7 +514,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":0,
 						"normal":3,
@@ -542,7 +542,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":6,
@@ -638,7 +638,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":5,
@@ -667,7 +667,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":0,
 						"normal":6,
@@ -694,7 +694,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":6,
@@ -1135,7 +1135,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":1,
 						"normal":6,
@@ -1160,7 +1160,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":6,
@@ -1413,7 +1413,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":5,
@@ -1465,7 +1465,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":0,
 						"normal":6,
@@ -1495,7 +1495,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":6,
@@ -1570,7 +1570,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":5,
@@ -1626,7 +1626,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":0,
 						"normal":6,
@@ -1655,7 +1655,7 @@
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
 					"spawn_time_delay_accumulate_for_each_zone": false,
-					"spawn_location_type": "random",
+					"spawn_location_type": "evenly",
 					"difficulty":{
 						"easy":2,
 						"normal":6,
