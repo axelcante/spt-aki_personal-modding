@@ -37,7 +37,7 @@
             "highLevelAIs": []
         },
         "overallAIDifficultyMod": 0,
-        "lowLevelAIDifficultyMod_Neg3_3": 0,
+        "lowLevelAIDifficultyMod_Neg3_3": -1,
         "midLevelAIDifficultyMod_Neg3_3": 0,
         "highLevelAIDifficultyMod_Neg3_3": 0,
         "IfYouDisableTheseThePMCSWontCountForQuestKills": {
@@ -47,11 +47,11 @@
         "Note": "These are the MAIN values for adjusting difficulty. If you want an easier or harder time overall, increase or decrease these. For details on these or any other entries, please check the readme."
     },
     "overallDifficultyMultipliers": {
-        "aiAimSpeedMult": 1.8,
+        "aiAimSpeedMult": 2,
         "aiShotSpreadMult": 1,
-        "aiVisionSpeedMult": 1.5,
-        "aiAccuracyMult": 1.8,
-        "sniperBotAccuracyMult": 1.7,
+        "aiVisionSpeedMult": 1.7,
+        "aiAccuracyMult": 2,
+        "sniperBotAccuracyMult": 1.8,
         "visibleDistanceMult": 0.5,
         "semiAutoFireRateMult": 0.5,
         "aiRecoilMult": 1.5,
