@@ -804,10 +804,10 @@
 			],
 			"wave_settings":{
 				"scav_waves":{
-					"wave_total":4,
+					"wave_total":3,
 					"slot_min":1,
 					"slot_max":3,
-					"insta_spawn_waves":4,
+					"insta_spawn_waves":3,
 					"spawn_time_delay_after_insta_wave": 0,
 					"spawn_time_delay_for_each_min": 0,
 					"spawn_time_delay_for_each_max": 0,
@@ -827,7 +827,7 @@
 					"cursedAssault_chance":0,
 					"wave_total":3,
 					"slot_min":1,
-					"slot_max":4,
+					"slot_max":2,
 					"insta_spawn_waves":3,
 					"spawn_scav_raider_location_chance": 22,
 					"spawn_time_delay_after_insta_wave": 0,
